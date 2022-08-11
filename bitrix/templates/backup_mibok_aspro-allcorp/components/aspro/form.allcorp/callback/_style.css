@@ -1,0 +1,44 @@
+.jqmWindow{ display: none; position: absolute; left: 50%; background: white; width: 500px; top:0px;}
+.jqmOverlay { background: #000; }
+/** iframe.jqm{ position: absolute; top: 0; left: 0; z-index: -1; width: expression(this.parentNode.offsetWidth+'px'); height: expression(this.parentNode.offsetHeight+'px'); }
+* html .jqmWindow{ position: absolute; top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px'); }
+*/
+.jqmClose.top-close{ width: 54px; height: 54px; line-height: 54px; text-align: center; color: white; position: absolute; top: 0; right: -54px; font-size: 25px; cursor: pointer; }
+
+.form-header{ margin-bottom: 20px;}
+.popup .form-header{padding: 30px; min-height: 115px;}
+.form-header{ background: white; }
+.form-header .text{ padding-left: 74px; }
+
+.form-header i{ width: 54px; height: 54px; line-height: 54px; text-align: center; color: white; float: left; font-size: 28px; }
+.form-header .title{ font-size: 26px; line-height: 30px; }
+.form-header p:last-child{ margin: 0; }
+
+.form-body{ padding: 15px 40px; }
+.popup .form-body{ padding: 30px 85px; }
+.form-body{ background: url('images/background.png') #eaf0f2 0 0 no-repeat; }
+.form-body .refresh{padding-left:10px;}
+.form-body .refresh span{border-bottom:1px dashed;}
+.form-body .refresh:hover{cursor:pointer;}
+
+.form-group{ margin-bottom: 10px; }
+.form-group .required-star{ color: #e02222; margin-left: 3px; font-weight: normal; }
+.form-group .input{ position: relative; }
+.form-group i{ position: absolute; top: 9px; right: 10px; font-size: 17px; color: #c4ccd1; }
+.form-group .hint{ font-size: 11px; line-height: 18px; margin-top: 7px; }
+
+.form-footer{ padding: 15px 40px; display: block !important; text-align:center;}
+.popup .form-footer{ padding: 30px 85px; display: block !important; }
+.form-footer .star{ background: #e02222; color: white; font-size: 18px; border-radius: 20px; width: 20px; height: 20px; line-height: 26px; text-align: center; display: inline-block; /*float: left;*/ margin-right: 5px; vertical-align:top;}
+.form-footer .required-fileds{ padding: 7px 0; color: #97a1a7; }
+.form-footer .btn{ margin: 0; }
+.form-footer.clearfix .pull-right{padding-left: 5px;}
+
+@media (max-width:395px) {
+	.form-footer.clearfix .pull-right{float:none !important;}
+	.form-footer.clearfix .pull-left{float:none !important;}
+	.popup .form-footer.clearfix .pull-right{float:right !important;}
+	.popup .form-footer.clearfix .pull-left{float:left !important;}
+	
+	.popup .form-footer .star{float:left;}
+}

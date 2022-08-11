@@ -1,0 +1,124 @@
+/* Add here all your JS customizations */
+
+$( document ).ready(function() {
+	$('.filter-catalog-main .filter_catalog').on("change", function() {
+		var element = $('.filter_catalog');
+		var data_filter = parseForm(element);
+
+		$.ajax({
+			url: "/ajax/ajax_filter.php",
+			type: 'post',
+			data: { arParams:arParams, data_filter:data_filter},
+			dataType: 'html',
+			success: function(html) {
+				var htmlNeedly = $(html).filter('.new-list-table').html();
+				$('.new-list-table').html(htmlNeedly);
+			}
+		});
+	});
+
+
+	$('body').on('click', '.select-outer .select_open', function() {
+		var _thisItems = $(this).parents('.select-outer').find('.items');
+		var display = _thisItems.css('display');
+
+		if (display == 'none') {
+			_thisItems.animate({height: 'show'}, 400);
+		} else {
+			_thisItems.animate({height: 'hide'}, 400);
+		}
+	});
+
+	$('body').on('click', '.checkbox-table-filter input[type=checkbox]', function() {
+		var _this = $(this);
+		var _thisParent = $(this).parents('.items');
+
+		if ($(this).val() === 'all') {
+			var checkedAll = $(this).prop('checked');
+
+			$.each(_thisParent.find('input[value!=all]'), function() {
+				$(this).prop('checked', checkedAll);
+			});
+		} else {
+			var checkedAll = true;
+			$.each(_thisParent.find('input[value!=all]'), function() {
+				if(!$(this).prop('checked')) {
+					checkedAll = false;
+				}
+			});
+
+			_thisParent.find('input[value=all]').prop('checked', false);
+		}
+	});
+
+	$('body').on('click', '.btn_hide_element', function(){
+		var propCode = $(this).parents('.bx_filter_parameters_box').data('prop-code');
+		$('.ceil-table[data-prop-code='+propCode+']').hide();
+		$(this).parents('.bx_filter_parameters_box').hide();
+	});
+
+	if($(".row_filter").length>0) {
+	  	var target = $('.row_filter');
+		var targetPos = target.offset().top;
+		var winHeight = $(window).height();
+		var scrollToElem = targetPos;
+		$(window).scroll(function() {
+	  		var winScrollTop = $(this).scrollTop();
+		  	if(winScrollTop > scrollToElem) {
+		  		target.css({'position' : 'fixed', 'top' : '0'});
+		  		$('.filter-catalog-main .bx_filter_parameters_box:first-child').css({'position' : 'fixed', 'top' : '25px'});
+		  		$('.filter-catalog-main .bx_filter_section').css({'margin-left' : '150px'});
+		  	}
+
+		  	if(winScrollTop < scrollToElem) {
+		  		target.css({'position' : 'static'});
+		  		$('.filter-catalog-main .bx_filter_parameters_box:first-child').css({'position' : 'sticky', 'top' : '0px'});
+		  		$('.filter-catalog-main .bx_filter_section').css({'margin-left' : '0px'});
+		  	}
+		});
+	}
+
+	$('.table-filter-container').scroll(function() {
+		var scroll = $(this).scrollLeft();
+		$('.row_filter').css({'left' : '-'+scroll+'px'});
+	});
+});
+
+function parseForm(element) {
+	var type_inputs = ['select', 'input'];
+	var data_filter = new Object();
+
+	$.each(type_inputs, function(index, el) {
+		$.each(element.find(el), function(index, el) {
+			var val_input    = $(el).val();
+			var name_input   = $(el).attr('name');
+			var display_type = $(el).data('display');
+
+			if (display_type == 'range') {
+				var pair = $(el).data('pair');
+
+				var min = $('input[name='+pair+'_MIN]').val();
+				var max = $('input[name='+pair+'_MAX]').val();
+
+				data_filter[pair] = {'val' : {'min' : min, 'max' : max}, 'display_type' : display_type};
+			} else if(display_type == 'list') {
+				var parentItems = $(el).parents('.select-outer').find('.items');
+
+				var arrayValue = new Array();
+				$.each(parentItems.find('input'), function() {
+					if ($(this).prop('checked')) {
+						arrayValue.push($(this).val());
+					}
+				});
+
+				if(arrayValue.indexOf( 'all' ) === -1) {
+					data_filter[name_input] = {'val' : arrayValue, 'display_type' : display_type};
+				}
+			} else {
+				data_filter[name_input] = {'val' : val_input, 'display_type' : display_type};
+			}
+		});
+	});
+
+	return data_filter;
+}

@@ -1,0 +1,1 @@
+<?='<script>WI.IBParam=' . json_encode($arResult["JSParam"]) . '</script>';?>

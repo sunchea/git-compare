@@ -1,0 +1,9 @@
+.front-news{  }
+.front-news .news-item{ display: block; border-bottom: 1px solid #d9dfe3; padding-bottom: 15px; margin-bottom: 10px; }
+.front-news .news-item:last-of-type{ border-bottom: 0; }
+.front-news .news-image{ float: left; width: 50px; margin-top: 4px; text-align: center; }
+.front-news .news-image img{ display: inline-block; max-width: 100%; max-height: 100%; vertical-align: middle; }
+
+.front-news .news-info{ padding-left: 67px; }
+.front-news .title{ margin-bottom: 7px; line-height: 18px; }
+.front-news .date{ font-size: 11px; line-height: 11px; }

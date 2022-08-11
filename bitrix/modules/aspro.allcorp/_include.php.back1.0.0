@@ -1,0 +1,157 @@
+<?
+IncludeModuleLangFile(__FILE__);
+
+// initialize array themes colors
+CAllCorp::$arBaseColors = array(
+	"color1" => array("COLOR" => "#c21f13", "TITLE" => GetMessage("COLOR_NONAME1")),
+	"color2" => array("COLOR" => "#b41818", "TITLE" => GetMessage("COLOR_NONAME2")),
+	"color3" => array("COLOR" => "#bd1c3c", "TITLE" => GetMessage("COLOR_NONAME3")),
+	"color4" => array("COLOR" => "#5f58ac", "TITLE" => GetMessage("COLOR_NONAME4")),
+	"color5" => array("COLOR" => "#00569c", "TITLE" => GetMessage("COLOR_NONAME5")),
+	"color6" => array("COLOR" => "#107bb1", "TITLE" => GetMessage("COLOR_NONAME6")),
+	"color7" => array("COLOR" => "#0088cc", "TITLE" => GetMessage("COLOR_NONAME7")),
+	"color8" => array("COLOR" => "#497c9d", "TITLE" => GetMessage("COLOR_NONAME8")),
+	"color9" => array("COLOR" => "#0fa8ae", "TITLE" => GetMessage("COLOR_NONAME9")),
+	"color10" => array("COLOR" => "#0d897f", "TITLE" => GetMessage("COLOR_NONAME10")),
+	"color11" => array("COLOR" => "#1b9e77", "TITLE" => GetMessage("COLOR_NONAME11")),
+	"color12" => array("COLOR" => "#188b30", "TITLE" => GetMessage("COLOR_NONAME12")),
+	"color13" => array("COLOR" => "#48a216", "TITLE" => GetMessage("COLOR_NONAME13")),
+);
+
+// include common aspro functions
+require_once __DIR__ .'/php/CCache.php';
+require_once __DIR__ .'/php/functions.php';
+
+class CAllCorp{
+	const partnerName	= "aspro"; 
+	const moduleID = "aspro.allcorp";
+	const solutionName	= "allcorp"; 	
+    const wizardID		= "aspro:allcorp";  
+	
+	static $arBaseColors = array();
+	
+	static function GetBaseColorHexByCode($colorCode){
+		return (self::$arBaseColors[$colorCode] ? self::$arBaseColors[$colorCode]["COLOR"] : "#0088cc");
+	}
+	
+	function GenerateThemes(){
+		require_once __DIR__."/less/lessc.inc.php";
+		$less = new lessc;
+		try{
+			foreach(CAllCorp::$arBaseColors as $colorCode => $arColor){
+				$less->setVariables(array("bcolor" => $arColor["COLOR"]));
+				$output = $less->compileFile(__DIR__."/less/style.less", $_SERVER["DOCUMENT_ROOT"]."/bitrix/templates/aspro-allcorp/themes/".$colorCode."/style.css" );
+			}
+		}catch(exception $e){
+			echo "fatal error: ".$e->getMessage(); die();
+		}
+	}
+	
+	
+	function Start($siteID){	
+		return true;
+	}
+	
+	function ShowPanel(){
+		if ($GLOBALS["USER"]->IsAdmin() && COption::GetOptionString("main", "wizard_solution", "", SITE_ID) == "allcorp"){
+			$GLOBALS["APPLICATION"]->SetAdditionalCSS("/bitrix/wizards/aspro/allcorp/css/panel.css"); 
+			
+			$arMenu = Array(
+				Array(
+					"ACTION" => "jsUtils.Redirect([], '".CUtil::JSEscape("/bitrix/admin/wizard_install.php?lang=".LANGUAGE_ID."&wizardSiteID=".SITE_ID."&wizardName=aspro:allcorp&".bitrix_sessid_get())."')",
+					"ICON" => "bx-popup-item-wizard-icon",
+					"TITLE" => GetMessage("STOM_BUTTON_TITLE_W1"),
+					"TEXT" => GetMessage("STOM_BUTTON_NAME_W1"),
+				),
+			);
+
+			$GLOBALS["APPLICATION"]->AddPanelButton(array(
+				"HREF" => "/bitrix/admin/wizard_install.php?lang=".LANGUAGE_ID."&wizardName=aspro:allcorp&wizardSiteID=".SITE_ID."&".bitrix_sessid_get(),
+				"ID" => "allcorp_wizard",
+				"ICON" => "bx-panel-site-wizard-icon",
+				"MAIN_SORT" => 2500,
+				"TYPE" => "BIG",
+				"SORT" => 10,	
+				"ALT" => GetMessage("SCOM_BUTTON_DESCRIPTION"),
+				"TEXT" => GetMessage("SCOM_BUTTON_NAME"),
+				"MENU" => $arMenu,
+			));
+		}
+	}
+	
+	function removeDirectory($dir){
+		if($objs=glob($dir."/*"))
+		{
+			foreach($objs as $obj)
+			{
+				if (is_dir($obj)){CAllCorp::removeDirectory($obj);}else
+				{
+					if(!unlink($obj)) { if(chmod($obj, 0777)) { unlink($obj); } }
+				}
+			}
+		}
+		if(!rmdir($dir)) { if(chmod($dir, 0777)) { rmdir($dir); } }
+	}
+	
+	function correctInstall(){
+		if (COption::GetOptionString("aspro.allcorp", "WIZARD_DEMO_INSTALLED") == "Y"){
+			if (CModule::IncludeModule("main"))	{
+				require_once($_SERVER["DOCUMENT_ROOT"].BX_ROOT."/modules/main/classes/general/wizard.php");
+				@set_time_limit(0);
+				if(!CWizardUtil::DeleteWizard("aspro:allcorp")){
+					if(!DeleteDirFilesEx($_SERVER["DOCUMENT_ROOT"]."/bitrix/wizards/aspro/allcorp/")){
+						CAllCorp::removeDirectory($_SERVER["DOCUMENT_ROOT"]."/bitrix/wizards/aspro/allcorp/");
+					}
+				}
+				UnRegisterModuleDependences("main", "OnBeforeProlog", "aspro.allcorp", "CAllCorp", "correctInstall"); 
+				COption::SetOptionString("aspro.allcorp", "WIZARD_DEMO_INSTALLED", "N");
+			}
+		}  
+	}
+	
+	function newAction($action = "unknown") {
+		$socket = fsockopen('bi.aspro.ru', 80, $errno, $errstr, 10);
+		if ($socket) {
+			if (CModule::IncludeModule("main")) {
+				global $APPLICATION;
+				require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/classes/general/update_client.php");
+				$errorMessage = "";
+				$serverIP = $_SERVER["HTTP_X_REAL_IP"] ? $_SERVER["HTTP_X_REAL_IP"] : $_SERVER["SERVER_ADDR"];
+				$arUpdateList = CUpdateClient::GetUpdatesList($errorMessage, "ru", "Y");
+				if (array_key_exists("CLIENT", $arUpdateList) && $arUpdateList["CLIENT"][0]["@"]["LICENSE"]) { $edition = $arUpdateList["CLIENT"][0]["@"]["LICENSE"]; } 
+				else { $edition = "UNKNOWN"; }		
+				$data = json_encode(array(
+					"client" => "aspro",
+					"install_date" => date("Y-m-d H:i:s"),
+					"solution_code" => "aspro.allcorp",
+					"ip" => $serverIP,
+					"http_host" => $_SERVER["HTTP_HOST"],
+					"bitrix_version" => SM_VERSION,
+					"bitrix_edition" => $APPLICATION->ConvertCharset($edition, SITE_CHARSET, "utf-8"),
+					"bitrix_key_hash" => md5(CUpdateClient::GetLicenseKey()),
+					"site_name" => $APPLICATION->ConvertCharset(COption::GetOptionString("main", "site_name"), SITE_CHARSET, "utf-8"),
+					"site_url" => $APPLICATION->ConvertCharset(COption::GetOptionString("main", "server_name"), SITE_CHARSET, "utf-8"),
+					"email_default" => $APPLICATION->ConvertCharset(COption::GetOptionString("main", "email_from"), SITE_CHARSET, "utf-8"),
+					"action" => $action)
+				);						
+				fwrite($socket, "POST /rest/bitrix/installs HTTP/1.1\r\n");
+				fwrite($socket, "Host: bi.aspro.ru\r\n");
+				fwrite($socket,"Content-type: application/x-www-form-urlencoded\r\n");
+				fwrite($socket,"Content-length:".strlen($data)."\r\n");
+				fwrite($socket,"Accept:*/*\r\n");
+				fwrite($socket,"User-agent:Bitrix Installer\r\n");
+				fwrite($socket,"Connection:Close\r\n");
+				fwrite($socket,"\r\n");
+				fwrite($socket,"$data\r\n");
+				fwrite($socket,"\r\n");
+				$answer = '';
+				while(!feof($socket)){$answer.= fgets($socket, 4096);}
+				fclose($socket);
+			}
+		}
+	}
+}
+
+// kill this in release
+//CAllCorp::GenerateThemes();
+?>

@@ -1,0 +1,4 @@
+.breadcrumb{ font-size: 11px; line-height: 13px; padding: 0; margin: 0; list-style: none; background: none; }
+.breadcrumb, .breadcrumb a{ color: #7b8d99 }
+.breadcrumb > li { text-shadow: none; }
+.breadcrumb > li + li:before{ font-family: FontAwesome; content: "\f054"; font-size: 9px; }

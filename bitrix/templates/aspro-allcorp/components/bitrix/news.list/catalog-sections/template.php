@@ -1,0 +1,108 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
+<?$this->setFrameMode(true);?>
+
+<?if($arResult["SECTIONS"]):?>
+	<div class="item-views services groups list sections">
+		<?// top pagination?>
+		<?/*if($arParams["DISPLAY_TOP_PAGER"]):?>
+			<?=$arResult["NAV_STRING"]?>
+		<?endif;*/?>
+
+		<div class="group-content">
+			<div class="row">
+
+				<?
+					$i = 1;
+					$count= 0;
+				?>
+				<?$counts = count($arResult["SECTIONS"]);?>
+				<?foreach($arResult["SECTIONS"] as $arSection):?>
+
+					<?php if(strripos($arSection["NAME"], 'В разработке')): ?>
+						<?php $arSection["SECTION_PAGE_URL"] = '#'; ?>
+					<?php endif; ?>
+
+					<?if(!$arSection["ID"]) continue;?>
+
+					<?
+						// edit/add/delete buttons for edit mode
+						$this->AddEditAction($arSection["ID"], $arSection["EDIT_LINK"], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], $arSection["DEPTH_LEVEL"] ? "SECTION_EDIT" : "ELEMENT_EDIT"));
+						$this->AddDeleteAction($arSection["ID"], $arSection["DELETE_LINK"], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], $arSection["DEPTH_LEVEL"] ? "SECTION_DELETE" : "ELEMENT_DELETE"), array("CONFIRM" => GetMessage("CATALOG_ELEMENT_DELETE_CONFIRM")));
+					?>
+
+					<div class="col-md-6">
+						<div class="item" id="<?=$this->GetEditAreaId($arSection["ID"])?>">
+							<div class="row">
+
+								<div class="col-md-4">
+									<div class="image">
+										<a href="<?=$arSection["SECTION_PAGE_URL"]?>">
+											<?if($arSection["PREVIEW_PICTURE"]):?>
+												<img src="<?=$arSection["PREVIEW_PICTURE"]["SRC"]?>" alt="<?=$arSection["PREVIEW_PICTURE"]["ALT"]?>" title="<?=$arSection["PREVIEW_PICTURE"]["TITLE"]?>" class="img-responsive" />
+											<?else:?>
+												<img src="<?=SITE_TEMPLATE_PATH?>/images/noimage.png" alt="<?=$arSection["NAME"]?>" title="<?=$arSection["NAME"]?>" class="img-responsive" />
+											<?endif;?>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<?// section title?>
+									<div class="title">
+										<a href="<?=$arSection["SECTION_PAGE_URL"]?>"><?=$arSection["NAME"]?></a>
+									</div>
+
+									<?// section info text?>
+									<?if(strlen($arSection["UF_INFOTEXT"])){?>
+										<div class="description">
+											<p><?=$arSection["UF_INFOTEXT"]?></p>
+										</div>
+									<?}?>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<?if(!($i % 2) && $i < $counts):?>
+						</div>
+							<hr/>
+						<div class="row">
+					<?endif;?>
+					<?$i++;?>
+				<?endforeach;?>
+
+				<?php
+				global $APPLICATION;
+				if($APPLICATION->GetCurDir() == '/catalog/'):  ?>
+					<div class="col-md-6">
+						<div class="item">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="image">
+										<a href="#">
+											<img src="/bitrix/templates/aspro-allcorp/images/oblozhka.png" alt="Новые разработки и каталог продукции (PDF)" title="Новые разработки и каталог продукции (PDF)" class="img-responsive">
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="title">
+										<a href="/catalog/katalog-izdeliy-elektronnoy-tekhniki/">Новые разработки и каталог продукции (PDF)</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<?php endif; ?>
+
+			</div>
+
+			<?if($arParams["PARENT_SECTION"]):?>
+				<hr/>
+			<?endif;?>
+		</div>
+
+		<?// bottom pagination?>
+		<?/*if($arParams["DISPLAY_BOTTOM_PAGER"]):?>
+			<?=$arResult["NAV_STRING"]?>
+		<?endif;*/?>
+	</div>
+<?endif;?>

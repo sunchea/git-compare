@@ -1,0 +1,66 @@
+<?if( !defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true ) die();?>
+<?$this->setFrameMode(true);?>
+<?$arParams["NEWS_COUNT"] = $arParams["NEWS_COUNT"] <= 0 || $arParams["NEWS_COUNT"] > 12 ? 1 : $arParams["NEWS_COUNT"];?>
+
+<div class="row small-banner">
+	<div class="col-md-12">
+		<div class="row">
+			<?$i = 0;
+			foreach( $arResult["ITEMS"] as $arItem ){
+				$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+				$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));?>
+				<div class="col-md-<?=floor( 12 / $arParams["NEWS_COUNT"] )?>" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
+					<?if( !empty( $arItem["DETAIL_PICTURE"] ) ){
+						$bg = $arItem["DETAIL_PICTURE"]["SRC"];
+						$position = 'background-size: cover;';
+					}else{
+						//$pos = 150 * $i + 30;
+						$pos = intval( 100 / $arParams["NEWS_COUNT"] * $i );
+						$position = 'background-position: '.$pos.'% 20%';
+					}
+					
+					$type = $arItem["PROPERTIES"]["BANNERTYPE"]["VALUE_XML_ID"];
+					if( $type == "T2"  ){
+						$align = "left";
+					}elseif( $type == "T3" ){
+						$align = "right";
+					}elseif( $type == "T4" ){
+						$align = "center";
+					}else{
+						$align = "left";
+					}
+					
+					if( !empty( $arItem["PROPERTIES"]["LINKIMG"]["VALUE"] ) && $type == "T1" ){?>
+						<a class="banner" href="<?=$arItem["PROPERTIES"]["LINKIMG"]["VALUE"]?>" style="text-align: <?=$align?>; <?=!empty( $bg ) ? 'background: url("'.$bg.'") 0 0 no-repeat;' : ''?> <?=$position?>">
+					<?}else{?>
+						<div class="banner" style="<?=!empty( $align ) ? 'text-align: '.$align.';' : ''?> <?=!empty( $bg ) ? 'background: url("'.$bg.'") 0 0 no-repeat;' : ''?> <?=$position?>">
+					<?}?>
+							<?if( !empty( $arItem["PROPERTIES"]["LINKIMG"]["VALUE"] ) && $type != "T1" ){?>
+								<div class="title">
+									<a href="<?=$arItem["PROPERTIES"]["LINKIMG"]["VALUE"]?>">
+							<?}?>
+										<?=str_replace('&lt;br&gt;', '<br/>',$arItem["NAME"])?>
+							<?if( !empty( $arItem["PROPERTIES"]["LINKIMG"]["VALUE"] ) && $type != "T1" ){?>
+									</a>
+								</div>
+							<?}?>
+							<?=$arItem["PREVIEW_TEXT"]?>
+					<?if( !empty( $arItem["PROPERTIES"]["LINKIMG"]["VALUE"] ) && $type == "T1" ){?>
+						</a>
+					<?}else{?>
+						</div>
+					<?}?>
+				</div>
+				<?$i++;
+			}?>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		setTimeout(function(){
+			$('.small-banner .banner').sliceHeight( { slice: <?=$arParams["NEWS_COUNT"]?> } );
+		}, 1000)
+	})
+</script>

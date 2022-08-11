@@ -1,0 +1,1 @@
+<span class="btn btn-primary" data-event="jqm" data-param-id="#IBLOCK_FORM_QUESTION_ID#" data-name="question">Задать вопрос</span>

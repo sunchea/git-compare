@@ -1,0 +1,148 @@
+.border-radius( @topleft: 0, @topright: 0, @bottomleft: 0, @bottomright: 0 ){
+	-webkit-border-radius: @topleft @topright @bottomright @bottomleft;
+	-moz-border-radius: @topleft @topright @bottomright @bottomleft;
+	border-radius: @topleft @topright @bottomright @bottomleft;
+}
+
+.box-shadow( @x: 0, @y: 0, @blur: 0, @alpha: 0 ){
+	-webkit-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+	-moz-box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+	box-shadow: @x @y @blur rgba(0, 0, 0, @alpha);
+}
+
+.transition( @prop: all, @time: 1s, @ease: linear ){
+	-webkit-transition: @prop @time @ease;
+	-moz-transition: @prop @time @ease;
+	-o-transition: @prop @time @ease;
+	-ms-transition: @prop @time @ease;
+	transition: @prop @time @ease;
+}
+
+.transform( @rotate: 90deg, @scale: 1, @skew: 1deg, @translate: 10px ){
+	-webkit-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-moz-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-o-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-ms-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+}
+
+.gradient( @origin: left, @start: #ffffff, @stop: #000000 ){
+	background-color: @start;
+	background-image: -webkit-linear-gradient(@origin, @start, @stop);
+	background-image: -moz-linear-gradient(@origin, @start, @stop);
+	background-image: -o-linear-gradient(@origin, @start, @stop);
+	background-image: -ms-linear-gradient(@origin, @start, @stop);
+	background-image: linear-gradient(@origin, @start, @stop);
+}
+
+@hcolor: lighten(@bcolor, 8);
+@acolor: darken(@bcolor, 6);
+
+a{ color: @bcolor; }
+a:hover{ color: @hcolor; }
+a:active{ color: @acolor; }
+
+header .phone .icon{ background: @bcolor; }
+header .callback{ color: @bcolor; }
+header .callback:hover{ color: lighten(@bcolor, 8); }
+header.menu-type-2 .mega-menu table{ .gradient( top, lighten(@bcolor, 3), @stop: darken(@bcolor, 4) ); }
+header.menu-type-2 .mega-menu table td .wrap > a{ border-left-color: lighten(@bcolor, 16); border-right-color: darken(@bcolor, 3); }
+header.menu-type-2 .mega-menu .dropdown-submenu > a:after{ color: @bcolor; }
+header.menu-type-2 .mega-menu table td.active .wrap > a{ .gradient( top, darken(@bcolor, 12), @stop: darken(@bcolor, 18) ); }
+header.menu-type-2 .mega-menu table a:hover{ .gradient( top, lighten(@bcolor, 8), @stop: lighten(@bcolor, 4) ); }
+header.menu-type-1 .mega-menu table a{ color: @bcolor; }
+header.menu-type-1 .mega-menu table .active > a,
+header.menu-type-1 .mega-menu table .active > a:hover,
+header.menu-type-1 .mega-menu table .active > a:focus{ background-color: @bcolor; }
+header.menu-type-1 .mega-menu table .active a,
+header.menu-type-1 .mega-menu table a:hover,
+header.menu-type-1 .mega-menu table .dropdown:hover a{ background-color: @bcolor; }
+header.menu-type-1 .mega-menu table .dropdown-menu{ background-color: @bcolor; border-bottom-color: darken(@bcolor, 8); }
+header.menu-type-1 .mega-menu table .dropdown:hover .dropdown-menu a:hover{ background: darken(@bcolor, 12); }
+footer{ border-color: @bcolor; }
+footer .menu li.active a{ color: @bcolor; }
+footer .menu li a:hover{ color: @bcolor; }
+.small-banner .banner{ border-bottom-color: lighten(@bcolor, 8); }
+.small-banner .row > div:nth-child(3n+1) .banner{ background-color: lighten(@bcolor, 5); }
+.small-banner .row > div:nth-child(4n+2) .banner{ background-color: @bcolor; }
+.small-banner .row > div:nth-child(5n+3) .banner{ background-color: darken(@bcolor, 5); }
+
+.uploader:hover .action{ background-color: lighten(@bcolor, 8); }
+p.drop-caps:first-child:first-letter{ color: @bcolor; }
+p.drop-caps.secundary:first-child:first-letter{ background-color: @bcolor; }
+blockquote{ background: @bcolor; border-color: darken(@bcolor, 6); }
+blockquote:before{ color: lighten(@bcolor, 8); }
+.label-info{ background-color: @bcolor; }
+section.toggle label{ color: @bcolor; border-color: @bcolor; }
+section.toggle.active > label{ background-color: @bcolor; border-color: @bcolor; }
+.progress-bar-primary{ background-color: @bcolor; }
+.search .btn-search:hover{ background: @bcolor; }
+table.table th{ .gradient( top, @bcolor, @stop: darken(@bcolor, 5) ); }
+.slider-container .tp-caption a:not(.btn):hover{ color: lighten(@bcolor, 8); }
+.tp-bullets .bullet.selected, .tp-bullets .bullet:hover{ background: @bcolor !important; }
+.feature-box .feature-box-icon{ background-color: @bcolor; }
+.tabs.item-views.table .title, .history.item-views.table .title{ color: @bcolor; }
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active{ background: @bcolor; }
+
+.accordion-body{ border-bottom-color: @bcolor; }
+.breadcrumb a:hover{ color: @hcolor; }
+.breadcrumb a:active{ color: @acolor; }
+.breadcrumb > li + li:before{ color: @bcolor; }
+.side-menu > li.active > a, .side-menu > li > a:hover, .side-menu > li > a:focus{ background: @bcolor; }
+.pagination .active a,
+.pagination .active span,
+.pagination .active a:hover,
+.pagination .active span:hover,
+.pagination .active a:focus,
+.pagination .active span:focus{ background-color: @bcolor; }
+.pagination a:hover{ background-color: @bcolor; color: @bcolor;}
+.pagination a:hover .icon{ color: @bcolor; }
+.tabs .nav-tabs li.active a{ border-top-color: @bcolor; color: @bcolor; }
+.tabs .nav-tabs a:hover{ border-top-color: @bcolor; }
+.img-inside:hover span.zoom, .img-thumbnail:hover span.zoom{ background: @bcolor; }
+.button( @color, @hcolor, @bordercolor ){
+	background: @color; border: 1px solid @bordercolor; box-shadow: 0 2px 0 0 darken(@color, 10);
+	&:hover,
+	&:active,
+	&:focus{ background: @hcolor; border: 1px solid @bordercolor; }
+	&:active,
+	&:focus{ box-shadow: 0 2px 0 0 darken(@color, 10), 0 3px 5px rgba(0, 0, 0, 0.125) inset; }
+	&.btn.btn-sm, &.btn.btn-xs{ box-shadow: 0 1px 0 0 darken(@color, 10) }
+	&.btn.btn-sm:active,
+	&.btn.btn-xs:focus{ box-shadow: 0 1px 0 0 darken(@color, 10), 0 3px 5px rgba(0, 0, 0, 0.125) inset; }
+}
+.button( @color: @bcolor, @hcolor: undefined, @bordercolor: undefined ) when ( @hcolor = undefined ) and ( @bordercolor = undefined ){
+	.button( @color, lighten(@color, 8), @color );
+}
+.btn-primary{ .button(); }
+.btn-success{ .button( #5cb85c ); }
+.btn-info{ .button( #00aaff ); }
+.btn-warning{ .button( #ed9c28 ); }
+.btn-danger{ .button( #d2322d ); }
+.btn-transparent{ .button( fadeout(#fff, 100%), lighten(@bcolor, 8), #fff ); }
+.icon.colored{ background: @bcolor; }
+.jqmClose.top-close{ background: @bcolor; }
+.jqmClose.top-close:hover{ background: lighten(@bcolor, 8); }
+.form-header i{ background: @bcolor; }
+.ask_a_question{border-top: 2px solid @bcolor;}
+
+.item-views.table .item:hover .text{ border-bottom-color: @bcolor; }
+.item-views.history .title{ color: @bcolor; }
+.item-views.vacancy .accordion-head:hover .icon{ background: @bcolor; }
+.item-views .property.price .icon, .item-views .property.price .price_val, .catalog.detail .info .price .price_val, .catalog.detail .info .price .price_new .icon{color: @bcolor;}
+.item-views .item:hover .property .icon{ background: @bcolor; }
+.item-views .item:hover .property.price .icon{ background: none; }
+.project.detail #carousel .slides li.flex-active-slide{border-color: @bcolor;}
+.project.detail .thmb .flex-direction-nav a.flex-next:hover, .project.detail .thmb .flex-direction-nav a.flex-prev:hover{ background: @bcolor; }
+.project.detail .content .props .wrap{ border-bottom-color:@bcolor;  }
+.project.detail .row .back i { background: @bcolor; }
+.catalog.detail .item_slider .thumbs .thumb .item.current{border-color: @bcolor;}
+.catalog.group .price .icon, .catalog.group .price .price_val{color: @bcolor;}
+.catalog.group .item:hover .property.price .icon{ background: none; }
+.catalog.detail .info{border-bottom-color: @bcolor;}
+.catalog.tabs .item .image:hover {border: 2px solid @bcolor;}
+.display-type .view-button:hover, .display-type .view-button.cur{ background-color: @bcolor; }
+.ordering-wrap .select-outer i.icon{color: @bcolor; }
+.detail .galery .item:hover, .detail .projects .item:hover .text, .catalog.detail .row .projects .item:hover .projects, .project.detail .row .projects .item:hover .projects{background: @bcolor;}
+.detail .projects .item .text:before, .catalog.detail .row.projects .item .projects:before, .project.detail .row .projects .item:hover .projects:before{border-bottom-color:@bcolor;}
+.detail .reviews .item .review .icons:before{color: @bcolor;}

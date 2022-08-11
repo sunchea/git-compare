@@ -1,0 +1,5 @@
+.small-banner{margin-bottom:40px;}
+.small-banner .banner{border-bottom:2px solid ;background-image:url('images/background.png');background-position:0 0;background-repeat:no-repeat;padding:20px;color:white;display:block;width:100%;}
+.small-banner .banner a{opacity:0.9;color:white;display:inline-block;text-decoration:none;border-bottom:1px solid #fff;}
+.small-banner .banner a:hover{color:#fff;opacity:1;}
+.small-banner .banner .title{font-weight:300;font-size:22px;line-height:27px;text-transform:uppercase;margin-bottom:5px;}

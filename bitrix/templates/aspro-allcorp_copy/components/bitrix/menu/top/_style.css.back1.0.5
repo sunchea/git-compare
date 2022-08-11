@@ -1,0 +1,109 @@
+header.menu-type-1{ height: 90px; padding: 30px 0; }
+header.menu-type-1 > .container{ margin-bottom: -34px; }
+header.menu-type-2{ height: 112px; padding-bottom: 22px; }
+
+header.menu-type-2 .mega-menu{ position: relative; z-index: 10; box-shadow: 0 1px 1px 0 rgba(0,0,0,.3); }
+header.menu-type-2 + .main .slider-container .container{ padding-top: 20px; }
+
+header.menu-type-1 .mega-menu table{ border: 0; font-size: 14px; line-height: 14px; border-radius: 3px; margin: 0 -5px; }
+header.menu-type-1 .mega-menu table{ border-collapse: separate; border-spacing: 5px 0; }
+header.menu-type-2 .mega-menu table{ border-collapse: collapse; border-spacing: 0; }
+.mega-menu table td{ padding: 0; text-align: center; }
+.mega-menu table a{ display: inline-block; width: 100%; }
+.mega-menu table td:first-child > a{ border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+.mega-menu table td:last-child > a{ border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+.mega-menu a{ text-decoration: none; white-space: nowrap }
+header.menu-type-2 .mega-menu table{ width: 100%; }
+header.menu-type-2 .mega-menu table a{ padding: 12px 25px; color: white; }
+header.menu-type-1 .mega-menu table a{ padding: 10px; border-radius: 2px; }
+header.menu-type-1 .mega-menu table a .icon{ color: #b2bfc6; }
+
+header.menu-type-1 .mega-menu table .active a,
+header.menu-type-1 .mega-menu table a:hover,
+header.menu-type-1 .mega-menu table .dropdown:hover a{ color: white; }
+
+header.menu-type-2 .mega-menu table a .icon{ color: white; }
+
+header.menu-type-2 .mega-menu table td .wrap > a{ position: relative; }
+header.menu-type-2 .mega-menu table td  .wrap> a:after{ content: ''; position: absolute; top: 0; right: -1px; background: url('images/spacer.png') 0 0 no-repeat; width: 2px; height: 100%; }
+header.menu-type-2 .mega-menu table td:last-child > a:after{ display: none; }
+
+header.menu-type-1 .mega-menu table .dropdown:hover a{ border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+header.menu-type-1 .mega-menu table .dropdown.active a .icon, header.menu-type-1 .mega-menu table .dropdown:hover a .icon{ color: white; }
+
+.mega-menu table .dropdown-menu{ border-left: 0; border-right: 0; border-top: 0; margin: 0; top: auto; padding: 0; text-align: left; }
+header.menu-type-1 .mega-menu table .dropdown-menu{ border-top-left-radius: 0; border-top-right-radius: 2px; font-size: 13px; }
+header.menu-type-1 .mega-menu table td:last-child .dropdown-menu{ border-top-right-radius: 0; border-top-left-radius: 2px; }
+header.menu-type-2 .mega-menu table .dropdown-menu{ border-bottom: 0; }
+.mega-menu table .dropdown-menu li:first-child a{ border-top-left-radius: 2px; border-top-right-radius: 2px; }
+.mega-menu table .dropdown-menu li:last-child a{ border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
+.mega-menu table .dropdown .wrap{position:relative;}
+.mega-menu table .dropdown .wrap:hover > .dropdown-menu{ display: block; }
+
+header.menu-type-2 .mega-menu table .dropdown-menu{ background: white; }
+header.menu-type-2 .mega-menu table .dropdown-menu:after{ content: ''; z-index: 100; position: absolute; top: -6px; left: 25px; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid white; }
+header.menu-type-2 .mega-menu table .dropdown-menu a{ border-bottom: 1px solid #ededed; color: #333333; }
+header.menu-type-2 .mega-menu table .dropdown-menu li a:hover,
+header.menu-type-2 .mega-menu table .dropdown-menu li a:focus{ color: white; }
+header.menu-type-2 .mega-menu table .dropdown-menu li:last-child a{ border-bottom: 0; }
+
+.mega-menu table td:last-child .dropdown-menu{ left: auto; right: 0; }
+.mega-menu table td:last-child .dropdown-menu:after{ left: auto; right: 30px; }
+
+header.menu-type-1 .mega-menu table .dropdown-menu{ color: white; border-bottom: 2px solid; }
+header.menu-type-1 .mega-menu table .dropdown-menu a{ border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+header.menu-type-1 .mega-menu table .dropdown-menu li:last-child > a{ border-bottom: 0; }
+header.menu-type-1 .mega-menu table .dropdown:hover .dropdown-menu a{ background: none; padding: 10px 20px 10px 10px;}
+
+.mega-menu .dropdown-submenu{ position: relative; }
+.mega-menu .dropdown-submenu > a:after{ display: block; font-family: FontAwesome; content: "\f105"; right:10px; position: absolute; top:50%; margin:-9px; }
+header.menu-type-2 .mega-menu .dropdown-submenu > a:hover:after{ color: white; }
+.mega-menu .dropdown-submenu > a:after{ margin-right: 0; }
+
+header.menu-type-2 .mega-menu table .dropdown-submenu .dropdown-menu:after{ display: none; }
+
+.mega-menu table .dropdown-submenu .dropdown-menu{ top: 0; left: 100%; margin-left: -1px; }
+header.menu-type-1 .mega-menu table .dropdown-submenu .dropdown-menu{ border-radius: 0 2px 2px 2px; }
+header.menu-type-2 .mega-menu table .dropdown-submenu .dropdown-menu{ border-radius: 6px; }
+.mega-menu table td:last-child .dropdown-menu .dropdown-menu{ right: auto; left: -100%; margin: 0; }
+.mega-menu table .dropdown-submenu:hover .dropdown-menu{ display: block; }
+
+header.menu-type-2 .mega-menu table .more-items{ height: 44px; line-height: 37px; }
+.mega-menu table .more-items > span{ height: 14px; line-height: 0; display: inline-block; letter-spacing: -4px; font-size: 50px; right: 2px; position: relative; }
+header.menu-type-1 .mega-menu table .more-items > span{ top: -7px; }
+header.menu-type-2 .mega-menu table .more-items > span{ top: -9px; }
+.mega-menu table .more-items > .icon{ display: none; font-size: 13px; }
+
+.mega-menu ul.nav{ margin: 8px 0; padding: 0; clear: both; float: none; position: static; display: block; font-size: 13px; }
+.mega-menu ul.nav li{ padding: 0; margin: 0; clear: both; float: none; display: block; border-bottom: 1px solid #2A2A2A; }
+.mega-menu ul.nav li + li{ margin-left: 0; }
+
+.mega-menu ul.nav li a,
+.mega-menu ul.nav ul.dropdown-menu > li > a{ text-shadow: none !important; padding: 9px 8px; border: 0 !important; border-top: 0; margin: 0; line-height: 24px; }
+.mega-menu ul.nav li:last-child,
+.mega-menu ul.dropdown-menu li > a{ border-bottom: none; }
+.mega-menu ul.nav li a{ color: white; clear: both; float: none; display: block; padding-left: 0; }
+.mega-menu ul.nav li a i.icon-angle-down{ position: absolute; right: 5px; top: 14px; }
+.mega-menu ul.nav li.active a, .mega-menu ul.nav li > a:hover, .mega-menu ul.nav li.dropdown:hover a, .mega-menu ul.nav li.dropdown:hover ul.dropdown-menu li > a:hover{ background: none !important; }
+.mega-menu ul.nav li a .icon{ color: white !important; }
+.mega-menu ul.nav .more-items{ line-height: 12px; }
+
+.mega-menu ul.nav ul{ margin-left: 20px !important; }
+
+.mega-menu ul.nav .dropdown-menu{ font-size: 13px; position: static; clear: both; float: none; display: none !important; box-shadow: none; border: none !important; }
+.mega-menu ul.nav li.resp-active > ul.dropdown-menu{ display: block !important; }
+
+.mega-menu ul.nav ul.dropdown-menu,
+.mega-menu ul.nav li.dropdown.open a.dropdown-toggle,
+.mega-menu ul.nav li a,
+.mega-menu ul.nav li > a:hover,
+.mega-menu ul.nav li.active a,
+.mega-menu ul.nav li.dropdown:hover a,
+.mega-menu ul.nav ul.dropdown-menu li:hover > a,
+.mega-menu ul.nav li.dropdown:hover ul.dropdown-menu li > a:hover{ background: none !important; background-color: transparent !important; }
+.mega-menu ul.nav .more-items .icon{ display: block; }
+
+button.btn-responsive-nav{ display: none; background: #171717; top: -30px; position: absolute; right: 16px; color: #FFF; z-index: 15; }
+button.btn-responsive-nav:hover,
+button.btn-responsive-nav:active,
+button.btn-responsive-nav:focus{ color: #CCC; }

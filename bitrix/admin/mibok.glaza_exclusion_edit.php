@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/mibok.glaza/admin/exclusion_edit.php");?>

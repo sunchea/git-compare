@@ -1,0 +1,12 @@
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+
+.search{ position: relative; width: 250px; }
+.search-page .search input[type="text"]{ background: white; color: #999999; height: 28px; line-height: 28px; padding: 0 10px; border: 1px solid #999; width: 100%; border-radius: 5px; }
+.search .btn-search{ position: absolute; top: 0; right: 0; background: #a0b0ba; border: 0; color: white; width: 30px; height: 100%; line-height: 12px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }

@@ -1,0 +1,29 @@
+.row.head
+{
+    background-color: #e3ebee;
+    font-weight: bold;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.row
+{
+    display: flex;
+    padding-left: 10px;
+}
+.ceil
+{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ceil input
+{
+    width: 80%;
+}
+.display-none
+{
+    display: none;
+}

@@ -1,0 +1,246 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?$this->setFrameMode(false);?>
+<?
+$this->setFrameMode(true);
+// get section items count and subsections
+$arItemFilter = CAllCorp::GetCurrentSectionElementFilter($arResult["VARIABLES"], $arParams);
+$arSectionFilter = CAllCorp::GetCurrentSectionFilter($arResult["VARIABLES"], $arParams);
+$itemsCnt = CCache::CIblockElement_GetList(array("CACHE" => array("TAG" => CCache::GetIBlockCacheTag($arParams["IBLOCK_ID"]))), $arItemFilter, array());
+$SectionID = CCache::CIblockSection_GetList(array("CACHE" => array("TAG" => CCache::GetIBlockCacheTag($arParams["IBLOCK_ID"]), "MULTI" => "N", "RESULT" => array("ID"))), $arSectionFilter, false, array("ID"), true);
+$arSubSectionFilter = CAllCorp::GetCurrentSectionSubSectionFilter($arResult["VARIABLES"], $arParams, $arSectionID);
+$arSubSections = CCache::CIblockSection_GetList(array("CACHE" => array("TAG" => CCache::GetIBlockCacheTag($arParams["IBLOCK_ID"]), "MULTI" => "Y")), $arSubSectionFilter, false, array("ID"));
+
+$arFilter = array('IBLOCK_ID'=>$arParams['IBLOCK_ID'] , '=UF_DISPLAY_FILTER' => '1', 'ID' => $arResult["VARIABLES"]['SECTION_ID']);
+$arSelect = array('UF_DISPLAY_FILTER');
+$res = CIBlockSection::GetList(array(), $arFilter, false, $arSelect);
+
+$arResult['FILTER'] = false;
+while ($arSection = $res->Fetch()) {
+	$arResult['FILTER'] = true;
+}
+
+if($arResult['FILTER'] == true): ?>
+	<div class="table-filter-container"> <?
+    include('newfilter.php');
+endif; ?>
+
+<?if(!$SectionID):?>
+	<div class="alert alert-warning"><?=GetMessage("SECTION_NOTFOUND")?></div>
+<?else:?>
+	<?if(!$arSubSections && !$itemsCnt):?>
+		<div class="alert alert-warning"><?=GetMessage("SECTION_EMPTY")?></div>
+	<?endif;?>
+	<?if($arSubSections):?>
+		<?// sections list?>
+		<?$APPLICATION->IncludeComponent(
+			"bitrix:news.list",
+			"catalog-sections",
+			Array(
+				"PARENT_SECTION" => $arResult["VARIABLES"]["SECTION_ID"],
+				"PARENT_SECTION_CODE" => $arResult["VARIABLES"]["SECTION_CODE"],
+				"COUNT_IN_LINE" => $arParams["COUNT_IN_LINE"],
+				"COUNT_LIST_LINE" => $arParams["COUNT_LIST_LINE"],
+				"VIEW_TYPE" => $arParams["VIEW_TYPE"],
+				"SHOW_TABS" => $arParams["SHOW_TABS"],
+				"SHOW_NAME" => $arParams["SHOW_NAME"],
+				"SHOW_DETAIL" => $arParams["SHOW_DETAIL"],
+				"SHOW_IMAGE" => $arParams["SHOW_IMAGE"],
+				"IMAGE_POSITION" => $arParams["IMAGE_POSITION"],
+				"IBLOCK_TYPE"	=>	$arParams["IBLOCK_TYPE"],
+				"IBLOCK_ID"	=>	$arParams["IBLOCK_ID"],
+				"NEWS_COUNT"	=>	$arParams["NEWS_COUNT"],
+				"SORT_BY1"	=>	$arParams["SORT_BY1"],
+				"SORT_ORDER1"	=>	$arParams["SORT_ORDER1"],
+				"SORT_BY2"	=>	$arParams["SORT_BY2"],
+				"SORT_ORDER2"	=>	$arParams["SORT_ORDER2"],
+				"FIELD_CODE"	=>	$arParams["LIST_FIELD_CODE"],
+				"PROPERTY_CODE"	=>	$arParams["LIST_PROPERTY_CODE"],
+				"DETAIL_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
+				"SECTION_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
+				"IBLOCK_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
+				"DISPLAY_PANEL"	=>	$arParams["DISPLAY_PANEL"],
+				"SET_TITLE"	=>	"Y",
+				"SET_STATUS_404" => $arParams["SET_STATUS_404"],
+				"INCLUDE_IBLOCK_INTO_CHAIN"	=>	$arParams["INCLUDE_IBLOCK_INTO_CHAIN"],
+				"CACHE_TYPE"	=>	$arParams["CACHE_TYPE"],
+				"CACHE_TIME"	=>	$arParams["CACHE_TIME"],
+				"CACHE_FILTER"	=>	$arParams["CACHE_FILTER"],
+				"CACHE_GROUPS" => $arParams["CACHE_GROUPS"],
+				"DISPLAY_TOP_PAGER"	=>	$arParams["DISPLAY_TOP_PAGER"],
+				"DISPLAY_BOTTOM_PAGER"	=>	$arParams["DISPLAY_BOTTOM_PAGER"],
+				"PAGER_TITLE"	=>	$arParams["PAGER_TITLE"],
+				"PAGER_TEMPLATE"	=>	$arParams["PAGER_TEMPLATE"],
+				"PAGER_SHOW_ALWAYS"	=>	$arParams["PAGER_SHOW_ALWAYS"],
+				"PAGER_DESC_NUMBERING"	=>	$arParams["PAGER_DESC_NUMBERING"],
+				"PAGER_DESC_NUMBERING_CACHE_TIME"	=>	$arParams["PAGER_DESC_NUMBERING_CACHE_TIME"],
+				"PAGER_SHOW_ALL" => $arParams["PAGER_SHOW_ALL"],
+				"DISPLAY_DATE"	=>	$arParams["DISPLAY_DATE"],
+				"DISPLAY_NAME"	=>	"Y",
+				"DISPLAY_PICTURE"	=>	$arParams["DISPLAY_PICTURE"],
+				"DISPLAY_PREVIEW_TEXT"	=>	$arParams["DISPLAY_PREVIEW_TEXT"],
+				"PREVIEW_TRUNCATE_LEN"	=>	$arParams["PREVIEW_TRUNCATE_LEN"],
+				"ACTIVE_DATE_FORMAT"	=>	$arParams["LIST_ACTIVE_DATE_FORMAT"],
+				"USE_PERMISSIONS"	=>	$arParams["USE_PERMISSIONS"],
+				"GROUP_PERMISSIONS"	=>	$arParams["GROUP_PERMISSIONS"],
+				"FILTER_NAME"	=>	$arParams["FILTER_NAME"],
+				"HIDE_LINK_WHEN_NO_DETAIL"	=>	$arParams["HIDE_LINK_WHEN_NO_DETAIL"],
+				"CHECK_DATES"	=>	$arParams["CHECK_DATES"],
+			),
+			$component
+		);?>
+	<?endif;?>
+	<?// section elements?>
+	<?//include_once("include_filter.php");?>
+	<?
+	$frame = new \Bitrix\Main\Page\FrameHelper('catalog-elements-block');
+	$frame->begin();
+	$frame->setAnimation(true);
+	?>
+	<? //include_once("include_sort.php");?>
+	<?
+	$display_template = $display ? 'catalog-'.$display: 'catalog-table';
+
+	$arParams['display']          = $display;
+	$arParams['display_template'] = $display_template;
+	$arParams['order']            = strtoupper($order);
+	$arParams['PARENT_SECTION']   = $arResult["VARIABLES"]['SECTION_ID'];
+	$count_on_page = CustomPropForFilter::getCountPage($arParams["IBLOCK_ID"], $arResult["VARIABLES"]["SECTION_ID"]);
+	if($count_on_page == 'all') {
+		$count_on_page = '9999999999999999999999999';
+	}
+	$arParams['NEWS_COUNT'] = $count_on_page;
+	?>
+
+	<?php if($arResult['FILTER'] == true): ?>
+		<?$APPLICATION->IncludeComponent(
+			"bitrix:news.list",
+			"catalog-table-filter",
+			Array(
+				"DISPLAY" => $display,
+				"COUNT_IN_LINE" => $arParams["COUNT_IN_LINE"],
+				"COUNT_LIST_LINE" => $arParams["COUNT_LIST_LINE"],
+				"VIEW_TYPE" => $arParams["VIEW_TYPE"],
+				"SHOW_TABS" => $arParams["SHOW_TABS"],
+				"SHOW_NAME" => $arParams["SHOW_NAME"],
+				"SHOW_DETAIL" => $arParams["SHOW_DETAIL"],
+				"SHOW_IMAGE" => $arParams["SHOW_IMAGE"],
+				"IMAGE_POSITION" => $arParams["IMAGE_POSITION"],
+				"IBLOCK_TYPE"	=>	$arParams["IBLOCK_TYPE"],
+				"IBLOCK_ID"	=>	$arParams["IBLOCK_ID"],
+				"NEWS_COUNT"	=>	$count_on_page,
+				"SORT_BY1"	=>	"SORT",
+				"SORT_ORDER1"	=>	"ASC",
+				"SORT_BY2"	=>	"ID",
+				"SORT_ORDER2"	=>	"DESC",
+				"FIELD_CODE"	=>	$arParams["LIST_FIELD_CODE"],
+				"PROPERTY_CODE"	=>	$arParams["LIST_PROPERTY_CODE"],
+				"DISPLAY_PANEL"	=>	$arParams["DISPLAY_PANEL"],
+				"SET_TITLE"	=>	$arParams["SET_TITLE"],
+				"SET_STATUS_404" => $arParams["SET_STATUS_404"],
+				"INCLUDE_IBLOCK_INTO_CHAIN"	=>	$arParams["INCLUDE_IBLOCK_INTO_CHAIN"],
+				"ADD_SECTIONS_CHAIN"	=>	$arParams["ADD_SECTIONS_CHAIN"],
+				"CACHE_TYPE"	=>	$arParams["CACHE_TYPE"],
+				"CACHE_TIME"	=>	$arParams["CACHE_TIME"],
+				"CACHE_FILTER"	=>	$arParams["CACHE_FILTER"],
+				"CACHE_GROUPS" => $arParams["CACHE_GROUPS"],
+				"DISPLAY_TOP_PAGER"	=>	$arParams["DISPLAY_TOP_PAGER"],
+				"DISPLAY_BOTTOM_PAGER"	=>	$arParams["DISPLAY_BOTTOM_PAGER"],
+				"PAGER_TITLE"	=>	$arParams["PAGER_TITLE"],
+				"PAGER_TEMPLATE"	=>	$arParams["PAGER_TEMPLATE"],
+				"PAGER_SHOW_ALWAYS"	=>	$arParams["PAGER_SHOW_ALWAYS"],
+				"PAGER_DESC_NUMBERING"	=>	$arParams["PAGER_DESC_NUMBERING"],
+				"PAGER_DESC_NUMBERING_CACHE_TIME"	=>	$arParams["PAGER_DESC_NUMBERING_CACHE_TIME"],
+				"PAGER_SHOW_ALL" => $arParams["PAGER_SHOW_ALL"],
+				"DISPLAY_DATE"	=>	$arParams["DISPLAY_DATE"],
+				"DISPLAY_NAME"	=>	"Y",
+				"DISPLAY_PICTURE"	=>	$arParams["DISPLAY_PICTURE"],
+				"DISPLAY_PREVIEW_TEXT"	=>	$arParams["DISPLAY_PREVIEW_TEXT"],
+				"PREVIEW_TRUNCATE_LEN"	=>	$arParams["PREVIEW_TRUNCATE_LEN"],
+				"ACTIVE_DATE_FORMAT"	=>	$arParams["LIST_ACTIVE_DATE_FORMAT"],
+				"USE_PERMISSIONS"	=>	$arParams["USE_PERMISSIONS"],
+				"GROUP_PERMISSIONS"	=>	$arParams["GROUP_PERMISSIONS"],
+				"FILTER_NAME"	=>	$arParams["FILTER_NAME"],
+				"HIDE_LINK_WHEN_NO_DETAIL"	=>	$arParams["HIDE_LINK_WHEN_NO_DETAIL"],
+				"CHECK_DATES"	=>	$arParams["CHECK_DATES"],
+				"INCLUDE_SUBSECTIONS" => "N",
+				"PARENT_SECTION"	=>	$arResult["VARIABLES"]["SECTION_ID"],
+				"PARENT_SECTION_CODE"	=>	$arResult["VARIABLES"]["SECTION_CODE"],
+				"DETAIL_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
+				"SECTION_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
+				"IBLOCK_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
+			),
+			$component
+		);?>
+	<?php else: ?>
+		<?include_once("include_sort.php");?>
+		<?$APPLICATION->IncludeComponent(
+			"bitrix:news.list",
+			$display_template,
+			Array(
+				"DISPLAY" => $display,
+				"COUNT_IN_LINE" => $arParams["COUNT_IN_LINE"],
+				"COUNT_LIST_LINE" => $arParams["COUNT_LIST_LINE"],
+				"VIEW_TYPE" => $arParams["VIEW_TYPE"],
+				"SHOW_TABS" => $arParams["SHOW_TABS"],
+				"SHOW_NAME" => $arParams["SHOW_NAME"],
+				"SHOW_DETAIL" => $arParams["SHOW_DETAIL"],
+				"SHOW_IMAGE" => $arParams["SHOW_IMAGE"],
+				"IMAGE_POSITION" => $arParams["IMAGE_POSITION"],
+				"IBLOCK_TYPE"	=>	$arParams["IBLOCK_TYPE"],
+				"IBLOCK_ID"	=>	$arParams["IBLOCK_ID"],
+				"NEWS_COUNT"	=>	$arParams["NEWS_COUNT"],
+				"SORT_BY1"	=>	$arAvailableSort[$sort]["SORT"],
+				"SORT_ORDER1"	=>	strtoupper($order),
+				"SORT_BY2"	=>	$arParams["SORT_BY2"],
+				"SORT_ORDER2"	=>	$arParams["SORT_ORDER2"],
+				"FIELD_CODE"	=>	$arParams["LIST_FIELD_CODE"],
+				"PROPERTY_CODE"	=>	$arParams["LIST_PROPERTY_CODE"],
+				"DISPLAY_PANEL"	=>	$arParams["DISPLAY_PANEL"],
+				"SET_TITLE"	=>	$arParams["SET_TITLE"],
+				"SET_STATUS_404" => $arParams["SET_STATUS_404"],
+				"INCLUDE_IBLOCK_INTO_CHAIN"	=>	$arParams["INCLUDE_IBLOCK_INTO_CHAIN"],
+				"ADD_SECTIONS_CHAIN"	=>	$arParams["ADD_SECTIONS_CHAIN"],
+				"CACHE_TYPE"	=>	$arParams["CACHE_TYPE"],
+				"CACHE_TIME"	=>	$arParams["CACHE_TIME"],
+				"CACHE_FILTER"	=>	$arParams["CACHE_FILTER"],
+				"CACHE_GROUPS" => $arParams["CACHE_GROUPS"],
+				"DISPLAY_TOP_PAGER"	=>	$arParams["DISPLAY_TOP_PAGER"],
+				"DISPLAY_BOTTOM_PAGER"	=>	$arParams["DISPLAY_BOTTOM_PAGER"],
+				"PAGER_TITLE"	=>	$arParams["PAGER_TITLE"],
+				"PAGER_TEMPLATE"	=>	$arParams["PAGER_TEMPLATE"],
+				"PAGER_SHOW_ALWAYS"	=>	$arParams["PAGER_SHOW_ALWAYS"],
+				"PAGER_DESC_NUMBERING"	=>	$arParams["PAGER_DESC_NUMBERING"],
+				"PAGER_DESC_NUMBERING_CACHE_TIME"	=>	$arParams["PAGER_DESC_NUMBERING_CACHE_TIME"],
+				"PAGER_SHOW_ALL" => $arParams["PAGER_SHOW_ALL"],
+				"DISPLAY_DATE"	=>	$arParams["DISPLAY_DATE"],
+				"DISPLAY_NAME"	=>	"Y",
+				"DISPLAY_PICTURE"	=>	$arParams["DISPLAY_PICTURE"],
+				"DISPLAY_PREVIEW_TEXT"	=>	$arParams["DISPLAY_PREVIEW_TEXT"],
+				"PREVIEW_TRUNCATE_LEN"	=>	$arParams["PREVIEW_TRUNCATE_LEN"],
+				"ACTIVE_DATE_FORMAT"	=>	$arParams["LIST_ACTIVE_DATE_FORMAT"],
+				"USE_PERMISSIONS"	=>	$arParams["USE_PERMISSIONS"],
+				"GROUP_PERMISSIONS"	=>	$arParams["GROUP_PERMISSIONS"],
+				"FILTER_NAME"	=>	$arParams["FILTER_NAME"],
+				"HIDE_LINK_WHEN_NO_DETAIL"	=>	$arParams["HIDE_LINK_WHEN_NO_DETAIL"],
+				"CHECK_DATES"	=>	$arParams["CHECK_DATES"],
+				"INCLUDE_SUBSECTIONS" => "N",
+				"PARENT_SECTION"	=>	$arResult["VARIABLES"]["SECTION_ID"],
+				"PARENT_SECTION_CODE"	=>	$arResult["VARIABLES"]["SECTION_CODE"],
+				"DETAIL_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
+				"SECTION_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
+				"IBLOCK_URL"	=>	$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
+			),
+			$component
+		);?>
+	<?php endif; ?>
+
+	<?$frame->end();?>
+<?endif;?>
+
+<? if($arResult['FILTER'] == true): ?>
+	<!-- </div> -->
+
+	<script type="text/javascript">
+		var arParams = <?= CUtil::PhpToJSObject($arParams) ?>;
+	</script>
+<? endif; ?>

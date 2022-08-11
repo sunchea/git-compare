@@ -1,0 +1,91 @@
+<!-- noindex -->
+<div class="row filters-wrap">
+	<?
+
+	if($arResult["VARIABLES"]["SECTION_ID"]){
+		$arSectiontmp = CIBlockSection::GetList(array(), array( "IBLOCK_ID" => $arParams["IBLOCK_ID"], "ID" => $arResult["VARIABLES"]["SECTION_ID"] ), false, array( "ID",  "UF_VIEWTYPE"))->GetNext();
+	}
+	elseif($arResult["VARIABLES"]["SECTION_CODE"]){		 
+		 $arSectiontmp = CIBlockSection::GetList(array(), array( "IBLOCK_ID" => $arParams["IBLOCK_ID"], "CODE" => $arResult["VARIABLES"]["SECTION_CODE"] ), false, array( "ID", "UF_VIEWTYPE"))->GetNext();
+	}
+		
+	if($_SESSION["UF_VIEWTYPE_".$arParams["IBLOCK_ID"]] === NULL){
+		$arUserFieldViewType = CUserTypeEntity::GetList(array(), array("ENTITY_ID" => "IBLOCK_".$arParams["IBLOCK_ID"]."_SECTION", "FIELD_NAME" => "UF_VIEWTYPE"))->Fetch();
+		$resUserFieldViewTypeEnum = CUserFieldEnum::GetList(array(), array("USER_FIELD_ID" => $arUserFieldViewType["ID"]));
+		while($arUserFieldViewTypeEnum = $resUserFieldViewTypeEnum->GetNext()){
+			$_SESSION["UF_VIEWTYPE_".$arParams["IBLOCK_ID"]][$arUserFieldViewTypeEnum["ID"]] = $arUserFieldViewTypeEnum["XML_ID"];
+		}
+	}
+						
+	if( array_key_exists( "display", $_REQUEST ) && !empty( $_REQUEST["display"] ) ){
+		setcookie( "display", $_REQUEST["display"] );
+		$_COOKIE["display"] = $_REQUEST["display"];
+	}
+	if( array_key_exists( "sort", $_REQUEST ) && !empty( $_REQUEST["sort"] ) ){
+		setcookie( "sort", $_REQUEST["sort"] );
+		$_COOKIE["sort"] = $_REQUEST["sort"];
+	}
+	if( array_key_exists( "order", $_REQUEST ) && !empty( $_REQUEST["order"] ) ){
+		setcookie( "order", $_REQUEST["order"] );
+		$_COOKIE["order"] = $_REQUEST["order"];
+	}
+	if( array_key_exists( "show", $_REQUEST ) && !empty( $_REQUEST["show"] ) ){
+		setcookie( "show", $_REQUEST["show"] );
+		$_COOKIE["show"] = $_REQUEST["show"];
+	}
+
+	if($arSectiontmp["UF_VIEWTYPE"] && isset($_SESSION["UF_VIEWTYPE_".$arParams["IBLOCK_ID"]][$arSectiontmp["UF_VIEWTYPE"]])){
+		$display = $_SESSION["UF_VIEWTYPE_".$arParams["IBLOCK_ID"]][$arSectiontmp["UF_VIEWTYPE"]];
+	}
+	else{
+		$display = !empty($_COOKIE["display"]) ? $_COOKIE["display"] : $arParams["VIEW_TYPE"];
+	}
+	$show = !empty($_COOKIE["show"]) ? $_COOKIE["show"] : $arParams["PAGE_ELEMENT_COUNT"];
+	?>
+	<div class="col-md-3 col-sm-5 ordering-wrap">
+		<?
+		if($arParams["SORT_PROP"]){
+			$sort_direction = $arParams["SORT_DIRECTION"] ? $arParams["SORT_DIRECTION"] : "asc";
+			foreach($arParams["SORT_PROP"] as $prop){
+				$propName = (in_array($prop, array('name', 'sort')) ? $prop : "PROPERTY_".$prop);
+				$arAvailableSort[$prop] = array($propName, $sort_direction);
+			}
+		}else{
+			$arAvailableSort = array(
+				"name" => array("NAME", $sort_direction),
+				"sort" => array("SORT", $sort_direction),						
+			);
+		}
+		$sort = !empty($_COOKIE["sort"]) ? $_COOKIE["sort"] : $arParams["SORT_PROP_DEFAULT"];
+		$order = !empty($_COOKIE["order"]) ? $_COOKIE["order"] : $arAvailableSort[$sort][1];
+		?>
+		<div class="select-outer">
+			<i class="icon icon-angle-down"></i>
+			<select class="sort">
+			<?foreach( $arAvailableSort as $key => $arSort ){
+				$className = $sort == $key ? 'cur' : '';
+				$selected = $sort == $key ? 'selected' : '';
+				if($className) 
+					$className .= $order == 'asc' ? ' asc' : ' desc';
+				$newSort = $sort == $key ? $order == 'desc' ? 'asc' : 'desc' : $arAvailableSort[$key][1];?>
+				<option <?=($selected ? "selected='selected'" : "")?>  value="<?=$APPLICATION->GetCurPageParam('sort='.$key.'&order='.$newSort, array('sort', 'order'))?>" class="grey-button button-<?=($key=='price' ? 'left' : 'right')?> ordering  <?=$className?>"><span><?=GetMessage('sort_title')?><?=GetMessage('sort_'.$key)?></span></option>
+			<?}?>
+			</select>
+		</div>
+	</div>
+	<? if (!$arSectiontmp["UF_VIEWTYPE"]){ ?>
+	<div class="col-md-5 col-sm-5 display-type pull-right text-right">
+		<span class="label_show"><?=GetMessage('T_SORT');?>:</span>
+		<a rel="nofollow" href="<?=$APPLICATION->GetCurPageParam('display=table', array('display'))?>" class="view-button view-tiles <?=$display == 'table' ? 'cur' : '';?>" alt="<?=GetMessage('T_LIST_VIEW');?>" title="<?=GetMessage('T_LIST_VIEW');?>">
+			&nbsp;
+		</a>
+		<a rel="nofollow" href="<?=$APPLICATION->GetCurPageParam('display=list', array('display'))?>" class="view-button view-list <?=$display == 'list' ? 'cur' : '';?>" alt="<?=GetMessage('T_TABLE_VIEW');?>" title="<?=GetMessage('T_TABLE_VIEW');?>">
+			&nbsp;
+		</a>
+		<a rel="nofollow" href="<?=$APPLICATION->GetCurPageParam('display=price', array('display'))?>" class="view-button view-price <?=$display == 'price' ? 'cur' : '';?>" alt="<?=GetMessage('T_PRICE_VIEW');?>" title="<?=GetMessage('T_PRICE_VIEW');?>">
+			&nbsp;
+		</a>
+	</div>
+	<?}?>
+</div>
+<!-- /noindex -->

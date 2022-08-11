@@ -1,0 +1,155 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
+<?$this->setFrameMode(true);?>
+<div class="project detail">
+	<?// element name?>
+	<?if($arParams["DISPLAY_NAME"] != "N" && strlen($arResult["NAME"])):?>
+		<h2><?=$arResult["NAME"]?></h2>
+	<?endif;?>
+	
+	<div class="row">
+		<?if($arResult["GALLERY"]){?>
+			<div class="col-md-6 item_slider">
+				<div class="thmb flexslider unstyled" id="slider">
+					<ul class="slides">					
+						<?foreach( $arResult["GALLERY"] as $key => $arPhoto ){?>
+							<li id="photo-<?=$key?>" <?=$key == 0 ? 'class="current"' : ''?> data-thumb="<?=$arPhoto["THUMB"]["src"]?>">
+								<a href="<?=$arPhoto["DETAIL"]["SRC"]?>" target="_blank" alt="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" title="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" rel="item_slider" class="fancybox">
+									<span class="lupa" style="display: none;" alt="<?=$arResult["NAME"]?>" title="<?=$arResult["NAME"]?>"></span>
+									<img border="0" class="img-responsive inline" src="<?=$arPhoto["PREVIEW"]["src"]?>" alt="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" title="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" />
+								</a>
+							</li>
+						<?}?>
+						<?if( count($arResult["GALLERY"] ) == 0 ){?>
+							<li class="current">
+								<img border="0" class="img-responsive inline" src="<?=SITE_TEMPLATE_PATH?>/images/noimage.png" alt="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" title="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" />
+							</li>
+						<?}?>
+					</ul>
+					<?/*if( count($arResult["GALLERY"] ) > 1 ){?>
+						<div class="thumbs">
+							<div class="row item">
+								<?foreach( $arResult["GALLERY"] as $key => $arPhoto ){?>
+									<div class="col-md-4 col-sm-3 thumb">
+										<div class="item <?=$key == 0 ? 'current' : ''?>">
+											<a href="#photo-<?=$key?>">
+												<img border="0" src="<?=$arPhoto["THUMB"]["src"]?>" alt="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" title="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" />
+											</a>
+										</div>
+									
+									</div>
+								<?}?>
+							</div>
+						</div>
+					<?}*/?>
+				</div>
+				<?if( count($arResult["GALLERY"] ) > 1 ){?>
+					<div class="thmb flexslider unstyled " id="carousel">
+						<ul class="slides">	
+							<?foreach( $arResult["GALLERY"] as $key => $arPhoto ){?>
+								<li>
+									<img class="img-responsive inline" border="0" src="<?=$arPhoto["THUMB"]["src"]?>" alt="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" title="<?=($arPhoto["TITLE"]["DESCRIPTION"] ? $arPhoto["TITLE"]["DESCRIPTION"] : $arResult["NAME"])?>" />
+								</li>
+							<?}?>
+						</ul>
+					</div>
+				<?}?>
+			</div>
+		<?}?>
+		<?if( $arResult["CHARACTERISTICS"] ){?>
+			<div class="col-md-6 props">
+				<h6 class="title"><?=GetMessage("TITLE_PROP")?></h6>
+				<div class="wrap">
+					<table>
+						<?foreach( $arResult["CHARACTERISTICS"] as $arProp){?>
+							<tr class="prop">
+								<td class="title"><div><?=$arProp["NAME"]?>:</div></td>
+								<td class="value">
+									<div>
+										<?if(count($arProp["VALUE"]) > 1){
+											foreach($arProp["VALUE"] as $key => $value) { if ($arProp["VALUE"][$key+1]) {echo $value.", ";} else {echo $value;} }} 
+										else{ 
+											if($arProp["CODE"] == "SITE"){?>
+												<!--noindex-->
+												<a href="<?=$arProp["VALUE"];?>" target="_blank" rel="nofollow"><?=$arProp["VALUE"];?></a>
+												<!--/noindex-->
+											<?}else{
+												echo $arProp["VALUE"]; 
+											}
+										}
+										?>
+									</div>
+								</td>
+							</tr>
+						<?}?>
+					</table>
+				</div>
+			</div>
+		<?}?>
+		<?if( $arResult["DETAIL_TEXT"] ){?>
+			<div class="detail">
+				<h6 class="title"><?=GetMessage("TITLE_DETAIL")?></h6>
+				<div class="text"><?=$arResult["DETAIL_TEXT"];?></div>
+			</div>
+		<?}?>
+	</div>
+	<?if($arResult["PROPERTIES"]["FORM_PROJECT"]["VALUE_XML_ID"]=="YES"){?>
+		<div class="styled-block project">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 valign">
+					<span class="btn btn-primary btn-sm" data-event="jqm" data-param-id="<?=CCache::$arIBlocks[SITE_ID]["aspro_allcorp_form"]["aspro_allcorp_order_project"][0]?>" data-autoload-project="<?=$arResult["NAME"]?>" data-name="project"><span><?=GetMessage("TO_CALL")?></span></span>
+				</div>
+				<div class="col-md-9 col-sm-9 valign">
+					<div class="right">
+						<?$APPLICATION->IncludeComponent(
+							 "bitrix:main.include",
+							 "",
+							 Array(
+								  "AREA_FILE_SHOW" => "file",
+								  "PATH" => SITE_DIR."include/ask_project.php",
+								  "EDIT_TEMPLATE" => ""
+							 )
+						);?>
+					</div>
+				</div>
+			</div>
+		</div>
+	<?}?>
+	<div class="row bottom">
+		<div class="col-md-6 back">
+			<a href="<?=$arResult["LIST_PAGE_URL"];?>" title="<?=GetMessage("BACK")?>" ><i class="icon icon-chevron-left bg"></i><?=GetMessage("BACK")?></a>
+		</div>
+		<div class="col-md-6 share text-right">
+			<span class="text"><?=GetMessage("SHARE_TEXT")?></span>
+			<script type="text/javascript" src="//yandex.st/share/share.js"
+			charset="utf-8"></script>
+			<span class="yashare-auto-init" data-yashareL10n="ru"
+			 data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir"></span>
+		</div>
+	</div>
+	
+	<?// projects links?>
+	<?if($arResult["PROJECTS"]["ITEMS"]){?>
+		<hr/>
+		<div class="wraps nomargin">
+			<div class="row projects">
+				<div class="col-md-12"><h4><?=GetMessage("LINK_PROJECTS")?></h4></div>
+				<?foreach($arResult["PROJECTS"]["ITEMS"] as $arProject){?>
+					<div class="col-md-3 col-sm-4 projects">
+						<div class="item">
+							<?$src=($arProject["DETAIL"]['SRC'] ? $arProject["DETAIL"]['SRC'] : $arProject["PREVIEW"]['src']);?>
+							<a href="<?=$arProject["DETAIL_PAGE_URL"]?>" class="fancybox" rel="gallery" title="<?=($arProject["DETAIL"]['DESCRIPTION'] ? $arProject["DETAIL"]['DESCRIPTION'] : $arProject["NAME"])?>">
+								<?$previewSRC = $arProject["PREVIEW"]['src'] ? $arProject["PREVIEW"]['src'] : SITE_TEMPLATE_PATH."/images/noimage.png";?>
+								<img src="<?=$previewSRC ?>" class="img-responsive inline <?=(!$arProject["PREVIEW"]['src'] ? "noimage" : "")?>" alt="<?=($arProject["DETAIL"]['DESCRIPTION'] ? $arProject["DETAIL"]['DESCRIPTION'] : $arProject["NAME"])?>"/>
+								<div class="projects">
+									<span class="icons"></span>
+									<div class="title"><?=($arProject["DETAIL"]['DESCRIPTION'] ? $arProject["DETAIL"]['DESCRIPTION'] : $arProject["NAME"])?></div>
+								
+								</div>
+							</a>
+						</div>
+					</div>
+				<?}?>
+			</div>
+		</div>
+	<?}?>
+</div>

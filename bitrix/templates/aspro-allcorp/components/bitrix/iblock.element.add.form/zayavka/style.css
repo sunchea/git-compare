@@ -1,0 +1,39 @@
+.zayavka .title {
+	background: #0088cc;
+	color: #fff;
+	line-height: 45px;
+	text-transform: uppercase;
+	padding-left: 16px;
+	margin-bottom: 10px;
+}
+.zayavka .name_field {
+	line-height: 14px;
+}
+.zayavka input,
+.zayavka select {
+	margin: 5px 0 15px;
+}
+.zayavka input[type="text"],
+.zayavka select {
+	width: 100%;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #d6dce2;
+}
+.zayavka input[type="file"] {
+	display: none;
+}
+.zayavka .radio-box label {
+	margin: 0 16px 0 6px;
+}
+.zayavka .double_field {
+	display: flex; 
+	justify-content: space-between;
+}
+.zayavka .double_field input:first-child {
+	margin-right: 10px;
+}
+.zayavka .double_field label {
+	margin-top: 5px; 
+	text-align: right;
+}

@@ -1,0 +1,15 @@
+.side-menu{ background: #eff5f7; }
+.side-menu > li > a, .side-menu > li > span { text-decoration: none; position: relative; border-bottom: 1px solid white; color: #666; }
+.side-menu > li:last-child > a, .side-menu > li:last-child > span{ border-bottom: 0; }
+.side-menu > li.child > a:before, .side-menu > li.child > span:before{ color: #7b8e9a; position: absolute; font-family: FontAwesome; content: "\f054"; font-size: 11px; right: 15px; }
+.side-menu > li.active > a, .side-menu > li > a:hover, .side-menu > li > a:focus, .side-menu > li.active > span, .side-menu > li > span:hover, .side-menu > li > span:focus{ color: white; }
+.side-menu > li.active > a:before, .side-menu > li > a:hover:before, .side-menu > li > a:focus:before, .side-menu > li.active > span:before, .side-menu > li > span:hover:before, .side-menu > li > span:focus:before { color: white; }
+
+
+.side-menu > li.active.child > a:before, .side-menu > li.active.child > span:before { content: "\f078"; }
+.side-menu .submenu{ margin: 0; padding: 14px 0 14px 14px; background: white; list-style: none; }
+.side-menu .submenu > li{ margin-bottom: 10px; }
+.side-menu .submenu > li:last-child{ margin: 0; }
+.side-menu .submenu > li > a, .side-menu .submenu > li > span { text-decoration: none; }
+/*.side-menu .submenu > li.active > a:hover, .side-menu > li.active > a:hover{cursor:default;}*/
+.side-menu .submenu > li.active > a, .side-menu .submenu > li.active > span { color: #4b5357; }

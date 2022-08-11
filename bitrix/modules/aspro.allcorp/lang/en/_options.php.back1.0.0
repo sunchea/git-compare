@@ -1,0 +1,21 @@
+<?
+	$MESS["NO_RIGHTS_FOR_VIEWING"] = "Недостаточно прав для просмотра";
+	$MESS["MAIN_OPTIONS"] = "Настройки сайта &laquo;#SITE_NAME#&raquo; (#SITE_ID#)";
+	$MESS["MAIN_OPTIONS_TITLE"] = "Основные настройки";
+	$MESS["TIRE_INDEX"] = "TireIndex";
+	$MESS["TIRE_INDEX_TITLE"] = "Загрузка базы TireIndex";
+	$MESS["COLOR_THEME"] = "Цветовая схема";
+	$MESS["COLOR_THEME_BLUE"] = "синяя";
+	$MESS["COLOR_THEME_GREEN"] = "зеленая";
+	$MESS["COLOR_THEME_GREEN_SEA"] = "зелено-морская";
+	$MESS["COLOR_THEME_MARENGO"] = "маренго";
+	$MESS["COLOR_THEME_RED"] = "красная";
+	$MESS["USE_FILTERS"] = "Использовать фильтры товаров";
+	$MESS["HTML5_FLASH_ERROR"] = "Ваш браузер не поддерживает HTML5 и Flash, пожалуйста обновите браузер";
+	$MESS["UPLOAD_FILES_DESCRIPTION"] = "Выберите *.sql файл с базой TireIndex для добавления на сайт. <br />Вы можете выбрать несколько файлов, они будут загружены в базу данных автоматически.";
+	$MESS["DRAG_AND_DROP_DESCRIPTION"] = "Или просто перетащите файлы <br />в эту область";
+	$MESS["ADD_FILE"] = "Добавить файл";
+	$MESS["DROP_FILES"] = "Переместите файлы сюда";
+	$MESS["TIREINDEX_LOAD_DONE"] = "Готово";
+	$MESS["TIREINDEX_LOAD_ERROR"] = "Ошибка";
+?>

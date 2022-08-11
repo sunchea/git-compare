@@ -1,0 +1,22 @@
+<?
+$MESS["SCOM_BUTTON_NAME"] = "Мастер#BR#настройки";
+$MESS["SCOM_BUTTON_DESCRIPTION"] = "Запустить мастер смены дизайна и настроек сайта";
+$MESS["STOM_BUTTON_TITLE_W1"] = "Запустить мастер смены дизайна и настройки магазина";
+$MESS["STOM_BUTTON_NAME_W1"] = "<b>Мастер настройки магазина</b>";
+$MESS["STOM_BUTTON_TITLE_W3"] = "Удаление демонстрационного каталога";
+$MESS["STOM_BUTTON_NAME_W3"] = "Удалить демо-каталог";
+$MESS["STOM_BUTTON_CONFIRM_W2"] = "Каталог Aspro, установленный в качестве демонстрационного, будет удален. При этом все ваши изменения внутри него будут потеряны. Удалить демо-каталог?";
+$MESS["COLOR_NONAME1"] = "Цвет 1";
+$MESS["COLOR_NONAME2"] = "Цвет 2";
+$MESS["COLOR_NONAME3"] = "Цвет 3";
+$MESS["COLOR_NONAME4"] = "Цвет 4";
+$MESS["COLOR_NONAME5"] = "Цвет 5";
+$MESS["COLOR_NONAME6"] = "Цвет 6";
+$MESS["COLOR_NONAME7"] = "Цвет 7";
+$MESS["COLOR_NONAME8"] = "Цвет 8";
+$MESS["COLOR_NONAME9"] = "Цвет 9";
+$MESS["COLOR_NONAME10"] = "Цвет 10";
+$MESS["COLOR_NONAME11"] = "Цвет 11";
+$MESS["COLOR_NONAME12"] = "Цвет 12";
+$MESS["COLOR_NONAME13"] = "Цвет 13";
+?>

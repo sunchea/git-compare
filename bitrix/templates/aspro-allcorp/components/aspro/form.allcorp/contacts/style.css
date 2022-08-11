@@ -1,0 +1,12 @@
+.contacts .title{ font-size: 26px; line-height: 30px; margin-bottom: 13px; }
+.contacts textarea{ height: 182px; }
+
+.form-header i{ width: 54px; height: 54px; line-height: 54px; text-align: center; color: white; float: left; font-size: 28px; }
+.form-header .text{ padding-left: 74px; }
+
+.form-group .required-star{ color: #e02222; margin-left: 3px; font-weight: normal; }
+.form-group .input{ position: relative; }
+.form-group i{ position: absolute; top: 9px; right: 10px; font-size: 17px; color: #c4ccd1; }
+.form-group .hint{ font-size: 11px; line-height: 18px; margin-top: 7px; }
+
+.contacts .btn{ margin: 0; }

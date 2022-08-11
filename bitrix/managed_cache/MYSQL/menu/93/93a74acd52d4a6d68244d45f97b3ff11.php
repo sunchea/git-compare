@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001660207695';
+$dateexpire = '001660211295';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:9:{i:0;a:3:{s:4:"LINK";s:9:"/catalog/";s:5:"LINKS";a:1:{i:0;s:9:"/catalog/";}s:4:"PERM";s:1:"R";}i:1;a:3:{s:4:"LINK";s:39:"/produktsiya-i-uslugi/katalog-ntts-sit/";s:5:"LINKS";a:1:{i:0;s:39:"/produktsiya-i-uslugi/katalog-ntts-sit/";}s:4:"PERM";s:1:"R";}i:2;a:3:{s:4:"LINK";s:46:"/produktsiya-i-uslugi/chuvstvitelnye-elementy/";s:5:"LINKS";a:1:{i:0;s:46:"/produktsiya-i-uslugi/chuvstvitelnye-elementy/";}s:4:"PERM";s:1:"R";}i:3;a:3:{s:4:"LINK";s:55:"/produktsiya-i-uslugi/obrabotka-metallov-i-termoplasta/";s:5:"LINKS";a:1:{i:0;s:55:"/produktsiya-i-uslugi/obrabotka-metallov-i-termoplasta/";}s:4:"PERM";s:1:"R";}i:4;a:3:{s:4:"LINK";s:40:"/produktsiya-i-uslugi/energosberezhenie/";s:5:"LINKS";a:1:{i:0;s:40:"/produktsiya-i-uslugi/energosberezhenie/";}s:4:"PERM";s:1:"R";}i:5;a:3:{s:4:"LINK";s:34:"/produktsiya-i-uslugi/energoaudit/";s:5:"LINKS";a:1:{i:0;s:34:"/produktsiya-i-uslugi/energoaudit/";}s:4:"PERM";s:1:"R";}i:6;a:3:{s:4:"LINK";s:38:"/produktsiya-i-uslugi/teplosnabzhenie/";s:5:"LINKS";a:1:{i:0;s:38:"/produktsiya-i-uslugi/teplosnabzhenie/";}s:4:"PERM";s:1:"R";}i:7;a:3:{s:4:"LINK";s:29:"/produktsiya-i-uslugi/arenda/";s:5:"LINKS";a:1:{i:0;s:29:"/produktsiya-i-uslugi/arenda/";}s:4:"PERM";s:1:"R";}i:8;a:3:{s:4:"LINK";s:10:"/personal/";s:5:"LINKS";a:1:{i:0;s:10:"/personal/";}s:4:"PERM";s:1:"R";}}}';
+return true;
+?>

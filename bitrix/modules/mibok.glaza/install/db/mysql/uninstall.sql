@@ -1,0 +1,1 @@
+DROP TABLE if exists mibok_special_exclusion;

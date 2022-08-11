@@ -1,0 +1,68 @@
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
+<?$this->setFrameMode(true);?>
+<?if(!empty($arResult)):?>
+	<div class="table-menu">
+		<table>
+			<tr>
+				<?foreach($arResult as $arItem):?>
+					<td class="<?=(!empty($arItem["CHILD"]) ? 'dropdown' : '')?> <?=($arItem["SELECTED"] ? 'active' : '')?>">
+						<div class="wrap">
+							<a href="<?=$arItem["LINK"]?>" <?=(!empty($arItem["CHILD"]) ? 'class="dropdown-toggle"' : '')?>>
+								<?=$arItem["TEXT"]?>
+								<?if(!empty($arItem["CHILD"])):?>
+									<i class="icon icon-angle-down"></i>
+								<?endif;?>
+							</a>
+							<?if(!empty($arItem["CHILD"])):?>
+								<ul class="dropdown-menu">
+									<?foreach($arItem["CHILD"] as $arSubItem):?>
+										<li <?=!empty($arSubItem["CHILD"]) ? 'class="dropdown-submenu"' : ''?>>
+											<a href="<?=$arSubItem["LINK"]?>"><?=$arSubItem["TEXT"]?></a>
+											<?if(!empty($arSubItem["CHILD"])):?>
+												<ul class="dropdown-menu">
+													<?foreach($arSubItem["CHILD"] as $arSubSubItem):?>
+														<li><a href="<?=$arSubSubItem["LINK"]?>"><?=$arSubSubItem["TEXT"]?></a></li>
+													<?endforeach;?>
+												</ul>
+											<?endif;?>
+										</li>
+									<?endforeach;?>
+								</ul>
+							<?endif;?>
+						</div>
+					</td>
+				<?endforeach;?>
+			</tr>
+		</table>
+	</div>
+<?endif;?>
+<?if(!empty($arResult)):?>
+	<ul class="nav nav-pills responsive-menu" id="mainMenu">
+		<?foreach($arResult as $arItem ):?>
+			<li class="<?=(!empty($arItem["CHILD"]) ? 'dropdown' : '')?> <?=($arItem["SELECTED"] ? 'active' : '')?>">
+				<a href="<?=$arItem["LINK"]?>" <?=(!empty($arItem["CHILD"]) ? 'class="dropdown-toggle"' : '')?>>
+					<?=$arItem["TEXT"]?>
+					<?if(!empty($arItem["CHILD"])):?>
+						<i class="icon icon-angle-down"></i>
+					<?endif;?>
+				</a>
+				<?if(!empty($arItem["CHILD"])):?>
+					<ul class="dropdown-menu">
+						<?foreach($arItem["CHILD"] as $arSubItem):?>
+							<li <?=(!empty($arSubItem["CHILD"]) ? 'class="dropdown-submenu"' : '')?>>
+								<a href="<?=$arSubItem["LINK"]?>"><?=$arSubItem["TEXT"]?></a>
+								<?if(!empty($arSubItem["CHILD"])):?>
+									<ul class="dropdown-menu">
+										<?foreach($arSubItem["CHILD"] as $arSubSubItem):?>
+											<li><a href="<?=$arSubSubItem["LINK"]?>"><?=$arSubSubItem["TEXT"]?></a></li>
+										<?endforeach;?>
+									</ul>
+								<?endif;?>
+							</li>
+						<?endforeach;?>
+					</ul>
+				<?endif;?>
+			</li>
+		<?endforeach;?>
+	</ul>
+<?endif;?>

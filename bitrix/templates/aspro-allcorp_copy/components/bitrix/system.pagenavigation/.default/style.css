@@ -1,0 +1,6 @@
+.wrap_pagination{text-align: center;}
+.pagination{ border-radius: 0; border-color: #dfe5e9; }
+.pagination .icon{ color: #acb6bc; }
+.pagination a, .pagination span{ border-radius: 0 !important; }
+.pagination a:hover{ color: white; }
+.pagination a:hover .icon{ color: white; }

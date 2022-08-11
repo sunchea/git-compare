@@ -1,0 +1,776 @@
+2016-12-07 11:24:59 -  - exec CUpdateClientPartner::SearchModulesEx
+2016-12-07 11:24:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 11:24:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 11:24:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 11:24:59 -  - TIME SearchModulesEx(request) 0.266 sec
+2016-12-07 11:24:59 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 11:24:59 - GUL02 - [RESERVED_KEY] Лицензионный ключ не активирован
+2016-12-07 11:26:53 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 11:26:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 11:26:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=bitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 11:26:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 11:26:53 -  - TIME GetUpdatesList(request) 0.173 sec
+2016-12-07 11:26:53 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 13:01:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 13:01:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 13:01:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=bitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 13:01:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 13:01:42 -  - TIME GetUpdatesList(request) 0.25 sec
+2016-12-07 13:01:42 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 13:49:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 13:49:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 13:49:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=bitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 13:49:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 13:49:44 -  - TIME GetUpdatesList(request) 0.231 sec
+2016-12-07 13:49:44 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 14:59:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 14:59:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 14:59:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=bitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 14:59:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 14:59:48 -  - TIME GetUpdatesList(request) 0.385 sec
+2016-12-07 14:59:48 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:17:39 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 15:17:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:17:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=bitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:17:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:17:40 -  - TIME GetUpdatesList(request) 0.362 sec
+2016-12-07 15:17:40 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:17:55 -  - exec CUpdateClientPartner::ActivateCoupon
+2016-12-07 15:17:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:17:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&SUPD_SRS=RU&SUPD_CMP=N&coupon=MPX-Y3ZCVM0U6C-OZWFECJ6W7&query_type=coupon
+2016-12-07 15:17:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:17:56 -  - TIME ActivateCoupon(request) 0.192 sec
+2016-12-07 15:17:56 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:17:56 - UPD_SUCCESS - Coupon activated
+2016-12-07 15:17:57 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 15:17:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:17:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=bitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:17:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:17:57 -  - TIME GetUpdatesList(request) 0.285 sec
+2016-12-07 15:17:57 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:18:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:03 -  - TIME LoadModulesUpdates(request) 0.469 sec
+2016-12-07 15:18:03 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:03 - S - STEP
+2016-12-07 15:18:03 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:03 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:03 -  - loadFile
+2016-12-07 15:18:05 - U - RETURN
+2016-12-07 15:18:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:06 -  - TIME UnGzipArchive 0.999 sec
+2016-12-07 15:18:07 -  - TIME UpdateStepModules 0.832 sec
+2016-12-07 15:18:07 - UPD_SUCCESS - Updated: aspro.allcorp
+2016-12-07 15:18:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.0%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:18:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:08 -  - TIME LoadModulesUpdates(request) 0.342 sec
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:08 - S - STEP
+2016-12-07 15:18:08 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:08 -  - loadFile
+2016-12-07 15:18:08 - U - RETURN
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:08 -  - TIME UnGzipArchive 0.019 sec
+2016-12-07 15:18:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113088/aspro.allcorp/updater1.0.1.php'
+2016-12-07 15:18:08 -  - TIME UpdateStepModules 0.098 sec
+2016-12-07 15:18:08 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.1)<br>Изменения: * исправлены ошибки в отображении вложенных разделов и элементов в левом меню * исправлены ошибки в хлебных крошках * исправлены ошибки в работе форм. В настройках модуля добавлена опция \"Формат даты\" для маски поля типа \"Дата/Время\" в формах. Значение поля проверяется на валидность при отправке формы * логотип в шапке перенесен во включаемую область, чтобы иметь возможность отображать разные логотипы в режиме многосайтовости * исправлена ошибка с сортировкой товаров в каталоге * исправлены параметры обработки изображений в инфоблоке \"Реклама\" * исправлены некоторые ошибки верстки. Перед установкой новой версии обязательно сделайте полную резервную копию сайта.
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.1%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:08 -  - TIME LoadModulesUpdates(request) 0.439 sec
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:08 - S - STEP
+2016-12-07 15:18:08 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:08 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:08 -  - loadFile
+2016-12-07 15:18:09 - U - RETURN
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:09 -  - TIME UnGzipArchive 0.01 sec
+2016-12-07 15:18:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113089/aspro.allcorp/updater1.0.2.php'
+2016-12-07 15:18:09 -  - TIME UpdateStepModules 0.048 sec
+2016-12-07 15:18:09 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.2)<br>* исправлены ошибки с формированием meta title/description/keywords из вкладки seo у разделов и элементов<br /> * исправлены ошибки меню и цепочки навигации при множественной привязке элементов к разделам
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.2%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:09 -  - TIME LoadModulesUpdates(request) 0.399 sec
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:09 - S - STEP
+2016-12-07 15:18:09 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:09 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:09 -  - loadFile
+2016-12-07 15:18:10 - U - RETURN
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:10 -  - TIME UnGzipArchive 0.034 sec
+2016-12-07 15:18:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113090/aspro.allcorp/updater1.0.3.php'
+2016-12-07 15:18:10 -  - TIME UpdateStepModules 0.167 sec
+2016-12-07 15:18:10 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.3)<br>* Добавлена поддержка технологии композитный сайт! <br /> * Исправлены некоторые ошибки в верстке <br /> <br /> <b>Внимание!</b><br /> Версия главного модуля должна быть не менее 14.5.0<br /> В процессе обновления многие файлы шаблона и публичной части будут перезаписаны, поэтому <b>обязательно</b> перед установкой обновления сделайте полную резервную копию сайта!
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.3%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:10 -  - TIME LoadModulesUpdates(request) 0.287 sec
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:10 - S - STEP
+2016-12-07 15:18:10 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:10 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:10 -  - loadFile
+2016-12-07 15:18:11 - U - RETURN
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:11 -  - TIME UnGzipArchive 0.01 sec
+2016-12-07 15:18:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113091/aspro.allcorp/updater1.0.4.php'
+2016-12-07 15:18:11 -  - TIME UpdateStepModules 0.057 sec
+2016-12-07 15:18:11 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.4)<br>* Исправлены ошибки в работе форм с полем типа \"список\"<br /> * Исправлены ошибки режима многосайтовости (отдельные включаемые области)<br /> * Исправлены некоторые ошибки в верстке <br /> 
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.4%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:11 -  - TIME LoadModulesUpdates(request) 0.282 sec
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:11 - S - STEP
+2016-12-07 15:18:11 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:11 -  - loadFile
+2016-12-07 15:18:11 - U - RETURN
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:11 -  - TIME UnGzipArchive 0.004 sec
+2016-12-07 15:18:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113091/aspro.allcorp/updater1.0.5.php'
+2016-12-07 15:18:11 -  - TIME UpdateStepModules 0.019 sec
+2016-12-07 15:18:11 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.5)<br>* Исправлена ошибка в работе формы \"Заказать услугу\" <br /> * Исправлен вывод описания раздела каталога при отсутсвующих активных элементах <br />
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.5%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:11 -  - TIME LoadModulesUpdates(request) 0.252 sec
+2016-12-07 15:18:11 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:11 - S - STEP
+2016-12-07 15:18:11 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:12 -  - loadFile
+2016-12-07 15:18:12 - U - RETURN
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:12 -  - TIME UnGzipArchive 0.008 sec
+2016-12-07 15:18:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113092/aspro.allcorp/updater1.0.6.php'
+2016-12-07 15:18:12 -  - TIME UpdateStepModules 0.038 sec
+2016-12-07 15:18:12 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.6)<br>* Исправлены ошибки шаблона компонента топ-меню. Увеличен максимальный уровень вложенности разделов до 4 <br /> * Исправлены ошибки шаблона компонента баннера на главной странице <br /> * Исправлены ошибки шаблона компонента детальной страницы у проекта <br /> * Исправлены ошибки шаблона компонента формы при автозаполнении полей <br /> * Исправлено некорректное подключение языкового файла в модуле решения <br /> * Отключен композит в подразделе каталога и на детальной странице товара для правильной индексации поисковиками <br /> * Исправлены некоторые ошибки верстки <br />
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.6%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:12 -  - TIME LoadModulesUpdates(request) 0.295 sec
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:12 - S - STEP
+2016-12-07 15:18:12 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:12 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:12 -  - loadFile
+2016-12-07 15:18:13 - U - RETURN
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:13 -  - TIME UnGzipArchive 0.038 sec
+2016-12-07 15:18:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113093/aspro.allcorp/updater1.0.7.php'
+2016-12-07 15:18:13 -  - TIME UpdateStepModules 0.138 sec
+2016-12-07 15:18:13 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.7)<br>* В шапке сайта добавлена ссылка на страницу в Google+ <br /> * Исправлены значения SEO-шаблонов SECTION_PAGE_TITLE, ELEMENT_PAGE_TITLE для каталога <br /> * Исправлена ошибка вывода множественных значений привязок на детальной странице элементов (новости, услуги, каталог и пр.) <br /> * Отменена отправка email уведомления при пустом адресе получателя <br /> * Исправлены ошибки верстки баннеров на главной странице <br /> * Исправлены ошибки верстки партнёров на главной странице <br />
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.7%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:13 -  - TIME LoadModulesUpdates(request) 0.329 sec
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:13 - S - STEP
+2016-12-07 15:18:13 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:13 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:13 -  - loadFile
+2016-12-07 15:18:14 - U - RETURN
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:14 -  - TIME UnGzipArchive 0.003 sec
+2016-12-07 15:18:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113094/aspro.allcorp/updater1.0.8.php'
+2016-12-07 15:18:14 -  - TIME UpdateStepModules 0.043 sec
+2016-12-07 15:18:14 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.8)<br>* Исправлена ошибка верстки в каталоге при отображении меню справа <br /> <br />
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.8%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:14 -  - TIME LoadModulesUpdates(request) 0.303 sec
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:14 - S - STEP
+2016-12-07 15:18:14 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:14 -  - loadFile
+2016-12-07 15:18:14 - U - RETURN
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:14 -  - TIME UnGzipArchive 0.008 sec
+2016-12-07 15:18:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113094/aspro.allcorp/updater1.0.9.php'
+2016-12-07 15:18:14 -  - TIME UpdateStepModules 0.045 sec
+2016-12-07 15:18:14 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.9)<br>* Исправлены ошибки композитного режима <br /> * Исправлены ошибки верстки баннеров на главной странице <br /> * Исправлены ошибки сортировки в каталоге <br /> <br />
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.9%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:15 -  - TIME LoadModulesUpdates(request) 0.318 sec
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:15 - S - STEP
+2016-12-07 15:18:15 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:15 -  - loadFile
+2016-12-07 15:18:15 - U - RETURN
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:15 -  - TIME UnGzipArchive 0.01 sec
+2016-12-07 15:18:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113095/aspro.allcorp/updater1.0.10.php'
+2016-12-07 15:18:15 -  - TIME UpdateStepModules 0.031 sec
+2016-12-07 15:18:15 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.10)<br>* Исправлены ошибки ввода номера телефона в формах с мобильных устройств <br /> * Исправлены ошибки в компоненте списка элементов новостей и компоненте детальной страницы новости (разделы новости, статьи, услуги, каталог)<br /> * Исправлены некоторые ошибки верстки (топ-меню, сортировка в каталоге) <br /> <br />
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.10%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:15 -  - TIME LoadModulesUpdates(request) 0.315 sec
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:15 - S - STEP
+2016-12-07 15:18:15 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:15 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:15 -  - loadFile
+2016-12-07 15:18:16 - U - RETURN
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:16 -  - TIME UnGzipArchive 0.002 sec
+2016-12-07 15:18:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113096/aspro.allcorp/updater1.0.11.php'
+2016-12-07 15:18:16 -  - TIME UpdateStepModules 0.01 sec
+2016-12-07 15:18:16 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.11)<br>* В класс установщика модуля решения добавлена функция checkValid() , отсутствие которой вызывало ошибку установки на версии ядра 15.0.6 <br /> <br />
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.11%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:16 -  - TIME LoadModulesUpdates(request) 0.333 sec
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:16 - S - STEP
+2016-12-07 15:18:16 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:16 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:16 -  - loadFile
+2016-12-07 15:18:17 - U - RETURN
+2016-12-07 15:18:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:18 -  - TIME UnGzipArchive 0.131 sec
+2016-12-07 15:18:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113097/aspro.allcorp/updater1.0.12.php'
+2016-12-07 15:18:18 -  - TIME UpdateStepModules 0.38 sec
+2016-12-07 15:18:18 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.12)<br>* Добавлен вывод умного фильтра в разделах каталога. В параметры модуля добавлена настройка вида отображения фильтра: вертикальный фильтр под боковым меню, горизонтальный фильтр над списком элементов каталога, без фильтра (по-умолчанию). <br /> * Добавлен композит в разделе каталога <br /> * Добавлена сортировка по цене по убыванию и возрастанию в списке товаров каталога <br /> * Добавлен прилипающий подвал сайта (стики-футер) <br /> * Исправлены ошибки валидации полей типов дата и файл в веб-формах <br /> * Исправлены некоторые ошибки верстки <br /> <br />
+2016-12-07 15:18:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.12%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:18 -  - TIME LoadModulesUpdates(request) 0.324 sec
+2016-12-07 15:18:18 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:18 - S - STEP
+2016-12-07 15:18:18 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:18 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:18 -  - loadFile
+2016-12-07 15:18:19 - U - RETURN
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:19 -  - TIME UnGzipArchive 0.006 sec
+2016-12-07 15:18:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113099/aspro.allcorp/updater1.0.13.php'
+2016-12-07 15:18:19 -  - TIME UpdateStepModules 0.03 sec
+2016-12-07 15:18:19 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.13)<br>* Исправлена ошибка отображения топ меню при некотором количестве пунктов <br /> * Исправлены некоторые ошибки верстки <br /> <br />
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.13%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:19 -  - TIME LoadModulesUpdates(request) 0.386 sec
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:19 - S - STEP
+2016-12-07 15:18:19 - LMU01 - LoadModulesUpdates-Step
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:19 -  - loadFile
+2016-12-07 15:18:19 - U - RETURN
+2016-12-07 15:18:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-07 15:18:19 -  - TIME UnGzipArchive 0.01 sec
+2016-12-07 15:18:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1481113099/aspro.allcorp/updater1.0.14.php'
+2016-12-07 15:18:19 -  - TIME UpdateStepModules 0.047 sec
+2016-12-07 15:18:19 - UPD_SUCCESS - Updated: aspro.allcorp (1.0.14)<br><b>Внимание!!! Перед установкой обновления ОБЯЗАТЕЛЬНО выполните полное резервное копирование сайта. Если вы вносили изменения в шаблон решения, то дополнительно скопируйте всю папку шаблона!<br /></b> <br /> <br /> <b>Исправления:</b> <ul> <li>Исправлена ошибка в шаблоне детальной страницы каталога и проекта из-за которой не выводились значения множественного свойства</li> <li>Исправлена ошибка в шаблоне списка товаров каталога из-за которой выводилось неверное значение свойства <i>Статус</i></li> <li>Исправлено непропорциональное отображение картинки для анонса в списке элементов при виде отображения <i>таблицей</i></li> </ul>
+2016-12-07 15:18:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-07 15:18:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:20 -  - TIME LoadModulesUpdates(request) 0.305 sec
+2016-12-07 15:18:20 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:18:20 - STEP - Finish - NOUPDATES
+2016-12-07 15:18:20 - STEP - Finish - NOUPDATES
+2016-12-07 15:18:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 15:18:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:18:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:18:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:18:44 -  - TIME GetUpdatesList(request) 0.288 sec
+2016-12-07 15:18:44 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 15:22:58 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 15:22:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 15:22:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.4%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.0.0%2CN%3Biblock%2C16.5.2%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.0%2CN%3Bperfmon%2C16.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.0.1%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.0.2%2CN%3Bfileman%2C16.5.4%2CN%3Bsocialservices%2C16.5.4%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 15:22:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 15:22:59 -  - TIME GetUpdatesList(request) 0.369 sec
+2016-12-07 15:22:59 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-07 17:18:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-07 17:18:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-07 17:18:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-07 17:18:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-07 17:18:48 -  - TIME GetUpdatesList(request) 0.539 sec
+2016-12-07 17:18:48 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:40 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-13 13:55:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:41 -  - TIME GetUpdatesList(request) 0.339 sec
+2016-12-13 13:55:41 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:48 -  - exec CUpdateClientPartner::ActivateCoupon
+2016-12-13 13:55:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&SUPD_SRS=RU&SUPD_CMP=Y&coupon=MPX-4E0A9IK50I-78H6NLULC2&query_type=coupon
+2016-12-13 13:55:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:49 -  - TIME ActivateCoupon(request) 0.242 sec
+2016-12-13 13:55:49 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:49 - UPD_SUCCESS - Coupon activated
+2016-12-13 13:55:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-13 13:55:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:50 -  - TIME GetUpdatesList(request) 0.286 sec
+2016-12-13 13:55:50 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:53 -  - TIME LoadModulesUpdates(request) 0.312 sec
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:53 - S - STEP
+2016-12-13 13:55:53 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:53 -  - loadFile
+2016-12-13 13:55:53 - U - RETURN
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:53 -  - TIME UnGzipArchive 0.05 sec
+2016-12-13 13:55:53 -  - TIME UpdateStepModules 0.076 sec
+2016-12-13 13:55:53 - UPD_SUCCESS - Updated: mibok.glaza
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C1.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:54 -  - TIME LoadModulesUpdates(request) 0.278 sec
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:54 - S - STEP
+2016-12-13 13:55:54 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:54 -  - loadFile
+2016-12-13 13:55:54 - U - RETURN
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:54 -  - TIME UnGzipArchive 0.006 sec
+2016-12-13 13:55:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626554/mibok.glaza/updater1.0.1.php'
+2016-12-13 13:55:54 -  - TIME UpdateStepModules 0.009 sec
+2016-12-13 13:55:54 - UPD_SUCCESS - Updated: mibok.glaza (1.0.1)<br><li>Исправлены незначительные ошибки в верстке, в том числе при переключении панели настроек (в шаблоне версии для слабовидящих)</li> <li>Добавлена возможность включения/выключения адаптивной сетки (для шаблонов сайта на Bootstrap 3)</li> <li>Исправлена проблема дублирования меню (для случаев, когда в основном шаблоне сайта используется один и тот же тип меню в качестве 1го уровня - несколько раз)</li>
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C1.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:54 -  - TIME LoadModulesUpdates(request) 0.32 sec
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:54 - S - STEP
+2016-12-13 13:55:54 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:54 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:54 -  - loadFile
+2016-12-13 13:55:55 - U - RETURN
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:55 -  - TIME UnGzipArchive 0.008 sec
+2016-12-13 13:55:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626555/mibok.glaza/updater2.0.0.php'
+2016-12-13 13:55:55 -  - TIME UpdateStepModules 0.017 sec
+2016-12-13 13:55:55 - UPD_SUCCESS - Updated: mibok.glaza (2.0.0)<br><li> Добавлена возможность озвучивания текстов на страницах сайта по технологии синтеза речи (экспериментальная функция)</li> <li> Добавлены 2 новые цветовые схемы</li> <li> Добавлено резервное копирование шаблона во время его перегенерации для возможности отката назад</li> <li> Исправлена ошибка перегенерации шаблонов версии для слабовидящих, связанная с некорректной генерацией меню</li> <li> Исправлена проблема клавиатурной навигации по меню второго уровня</li>
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:55 -  - TIME LoadModulesUpdates(request) 0.267 sec
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:55 - S - STEP
+2016-12-13 13:55:55 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:55 -  - loadFile
+2016-12-13 13:55:55 - U - RETURN
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:55 -  - TIME UnGzipArchive 0.004 sec
+2016-12-13 13:55:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626555/mibok.glaza/updater2.1.0.php'
+2016-12-13 13:55:55 -  - TIME UpdateStepModules 0.009 sec
+2016-12-13 13:55:55 - UPD_SUCCESS - Updated: mibok.glaza (2.1.0)<br><li> Добавлена настройка включения/выключения режима монохромных изображений</li> <li> Добавлена настройка межстрочного интервала</li> <li> Исправлены мелкие ошибки</li>
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.1.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:55 -  - TIME LoadModulesUpdates(request) 0.32 sec
+2016-12-13 13:55:55 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:55 - S - STEP
+2016-12-13 13:55:55 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:56 -  - loadFile
+2016-12-13 13:55:56 - U - RETURN
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:56 -  - TIME UnGzipArchive 0.005 sec
+2016-12-13 13:55:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626556/mibok.glaza/updater2.2.0.php'
+2016-12-13 13:55:56 -  - TIME UpdateStepModules 0.009 sec
+2016-12-13 13:55:56 - UPD_SUCCESS - Updated: mibok.glaza (2.2.0)<br><p>Внимание! Обновление затрагивает следующие файлы в ранее сгенерированных шаблонах: js/toolbar.js, js/voice.js, css/style.css. Старые файлы остались в тех же папках, но переименованы (добавлен постфикс _old)</p> <li> Добавлен ползунок аудио-проигрывателя</li> <li> Улучшена панель настроек версии сайта для слабовидящих</li> <li> Добавлены новые настройки модуля</li> <li> Исправлены мелкие ошибки</li>
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.2.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:56 -  - TIME LoadModulesUpdates(request) 0.294 sec
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:56 - S - STEP
+2016-12-13 13:55:56 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:56 -  - loadFile
+2016-12-13 13:55:56 - U - RETURN
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:56 -  - TIME UnGzipArchive 0.005 sec
+2016-12-13 13:55:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626556/mibok.glaza/updater2.3.0.php'
+2016-12-13 13:55:56 -  - TIME UpdateStepModules 0.008 sec
+2016-12-13 13:55:56 - UPD_SUCCESS - Updated: mibok.glaza (2.3.0)<br><p>Внимание! Обновление затрагивает следующий файл в ранее сгенерированных шаблонах: js/voice.js. Старый файл остался в тех же папках, но переименован (добавлен постфикс _old)</p> <li> Улучшен функционал озвучивания</li> <li> Оптимизирована работа модуля для условий ограниченности ресурсов хостинга</li> <li> Исправлена ошибка, вызывающая постоянное уведомление о необходимости перегенерации шаблонов</li> <li> Исправлена проблема перехода между обычной версией и версией для слабовидящих для ссылок с GET-параметрами (query string)</li> <li> Прочие улучшения и устранение мелких ошибок</li>
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.3.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:57 -  - TIME LoadModulesUpdates(request) 0.291 sec
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:57 - S - STEP
+2016-12-13 13:55:57 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:57 -  - loadFile
+2016-12-13 13:55:57 - U - RETURN
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:57 -  - TIME UnGzipArchive 0.002 sec
+2016-12-13 13:55:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626557/mibok.glaza/updater2.3.1.php'
+2016-12-13 13:55:57 -  - TIME UpdateStepModules 0.003 sec
+2016-12-13 13:55:57 - UPD_SUCCESS - Updated: mibok.glaza (2.3.1)<br>Устранена проблема с кодировкой файла voice.js при использовании на сайтах в кодировке UTF-8
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.3.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:57 -  - TIME LoadModulesUpdates(request) 0.337 sec
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:57 - S - STEP
+2016-12-13 13:55:57 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:57 -  - loadFile
+2016-12-13 13:55:57 - U - RETURN
+2016-12-13 13:55:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:57 -  - TIME UnGzipArchive 0.003 sec
+2016-12-13 13:55:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1481626557/mibok.glaza/updater2.4.0.php'
+2016-12-13 13:55:58 -  - TIME UpdateStepModules 0.005 sec
+2016-12-13 13:55:58 - UPD_SUCCESS - Updated: mibok.glaza (2.4.0)<br><li> Добавлена возможность внесения своих изменений в стилях и js-коде в специальные файлы css/custom.css и js/custom.js (для этого в существующих шаблонах версии для слабовидящих необходимо указанные файлы подключить вручную) </li> <li> Добавлена возможность отключения отслеживания различий в шаблонах (вывод уведомления администратору сайта о перегенерации) в настройках модуля</li>
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.4.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:58 -  - TIME LoadModulesUpdates(request) 0.314 sec
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:58 - S - STEP
+2016-12-13 13:55:58 - LMU01 - LoadModulesUpdates-Step
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:58 -  - loadFile
+2016-12-13 13:55:58 - U - RETURN
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2016-12-13 13:55:58 -  - TIME UnGzipArchive 0.003 sec
+2016-12-13 13:55:58 -  - TIME UpdateStepModules 0.005 sec
+2016-12-13 13:55:58 - UPD_SUCCESS - Updated: mibok.glaza (2.5.0)<br><li> Добавлена поддержка папки /local/</li> <li> Прочие улучшения и устранение мелких ошибок</li>
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 13:55:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 13:55:58 -  - TIME LoadModulesUpdates(request) 0.315 sec
+2016-12-13 13:55:58 -  - exec CUpdateClientPartner::ParseServerData
+2016-12-13 13:55:58 - STEP - Finish - NOUPDATES
+2016-12-13 13:55:58 - STEP - Finish - NOUPDATES
+2016-12-13 14:02:29 -  - exec CUpdateClientPartner::GetUpdatesList
+2016-12-13 14:02:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2016-12-13 14:02:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=kremny.golddizl.bget.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=F&CLIENT_PHPVER=5.6.23&NGINX=Y&dbv=5.7.14&instm=main%2C16.5.8%2CN%3Btranslate%2C14.5.0%2CN%3Bsearch%2C16.5.0%2CN%3Biblock%2C16.5.6%2CN%3Bseo%2C16.0.3%2CN%3Bbitrixcloud%2C16.0.1%2CN%3Bperfmon%2C16.5.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bclouds%2C16.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bscale%2C16.5.0%2CN%3Bcompression%2C16.0.0%2CN%3Bhighloadblock%2C16.5.0%2CN%3Bfileman%2C16.5.5%2CN%3Bsocialservices%2C16.5.5%2CN&reqm=mibok.glaza%2Caspro.allcorp%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2016-12-13 14:02:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2016-12-13 14:02:30 -  - TIME GetUpdatesList(request) 0.385 sec
+2016-12-13 14:02:30 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:41:46 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-04 11:41:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:41:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate%2Cmibok.glaza%2Cwebizi.purchase&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:41:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:41:48 -  - TIME GetUpdatesList(request) 2.339 sec
+2017-07-04 11:41:48 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:41:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-04 11:41:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:41:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=webizi.purchase&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:41:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:41:58 -  - TIME LoadModulesUpdates(request) 1.298 sec
+2017-07-04 11:41:58 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:41:58 - S - STEP
+2017-07-04 11:41:58 - LMU01 - LoadModulesUpdates-Step
+2017-07-04 11:41:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-04 11:41:58 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:41:58 -  - loadFile
+2017-07-04 11:41:59 - U - RETURN
+2017-07-04 11:41:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-07-04 11:41:59 -  - TIME UnGzipArchive 0.054 sec
+2017-07-04 11:41:59 -  - TIME UpdateStepModules 0.037 sec
+2017-07-04 11:41:59 - UPD_SUCCESS - Updated: webizi.purchase
+2017-07-04 11:41:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-04 11:41:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:42:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.0%2CY%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=webizi.purchase&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:42:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:42:01 -  - TIME LoadModulesUpdates(request) 1.05 sec
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:42:01 - S - STEP
+2017-07-04 11:42:01 - LMU01 - LoadModulesUpdates-Step
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:42:01 -  - loadFile
+2017-07-04 11:42:01 - U - RETURN
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-07-04 11:42:01 -  - TIME UnGzipArchive 0.004 sec
+2017-07-04 11:42:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1499157721/webizi.purchase/updater1.0.1.php'
+2017-07-04 11:42:01 -  - TIME UpdateStepModules 0.013 sec
+2017-07-04 11:42:01 - UPD_SUCCESS - Updated: webizi.purchase (1.0.1)<br><li><b>Проверки</b><br></li> <li>Исправлена проверка на истечение демо-режима</li> <br> <li><b>Дополнение</b><br></li> <li>Добавлен класс очистки кэша</li>
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:42:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CY%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=webizi.purchase&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:42:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:42:02 -  - TIME LoadModulesUpdates(request) 1.072 sec
+2017-07-04 11:42:02 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:42:02 - STEP - Finish - NOUPDATES
+2017-07-04 11:42:02 - STEP - Finish - NOUPDATES
+2017-07-04 11:42:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-04 11:42:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:42:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CY%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:42:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:42:05 -  - TIME GetUpdatesList(request) 1.228 sec
+2017-07-04 11:42:05 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:42:05 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-04 11:42:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:42:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CY%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:42:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:42:06 -  - TIME GetUpdatesList(request) 1.137 sec
+2017-07-04 11:42:06 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-04 11:44:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-04 11:44:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-04 11:44:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=16&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CY%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-04 11:44:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-04 11:44:11 -  - TIME GetUpdatesList(request) 1.135 sec
+2017-07-04 11:44:11 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:18 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-19 17:26:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:26:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:26:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:26:18 -  - TIME GetUpdatesList(request) 0.32 sec
+2017-07-19 17:26:18 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:34 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-19 17:26:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:26:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cbitrix.sitecorporate%2Cmibok.glaza&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:26:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:26:34 -  - TIME GetUpdatesList(request) 0.361 sec
+2017-07-19 17:26:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-19 17:26:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:26:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=webizi.purchase&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:26:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:26:45 -  - TIME LoadModulesUpdates(request) 0.323 sec
+2017-07-19 17:26:45 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:45 - S - STEP
+2017-07-19 17:26:45 - LMU01 - LoadModulesUpdates-Step
+2017-07-19 17:26:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-19 17:26:45 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:45 -  - loadFile
+2017-07-19 17:26:46 - U - RETURN
+2017-07-19 17:26:46 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-07-19 17:26:46 -  - TIME UnGzipArchive 0.057 sec
+2017-07-19 17:26:46 -  - TIME UpdateStepModules 0.049 sec
+2017-07-19 17:26:46 - UPD_SUCCESS - Updated: webizi.purchase
+2017-07-19 17:26:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-19 17:26:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:26:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=webizi.purchase&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:26:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:26:47 -  - TIME LoadModulesUpdates(request) 0.319 sec
+2017-07-19 17:26:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:47 - S - STEP
+2017-07-19 17:26:47 - LMU01 - LoadModulesUpdates-Step
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:48 -  - loadFile
+2017-07-19 17:26:48 - U - RETURN
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-07-19 17:26:48 -  - TIME UnGzipArchive 0.004 sec
+2017-07-19 17:26:48 - CSURUS1 - Run updater '/bitrix/updates/update_m1500474408/webizi.purchase/updater1.0.1.php'
+2017-07-19 17:26:48 -  - TIME UpdateStepModules 0.015 sec
+2017-07-19 17:26:48 - UPD_SUCCESS - Updated: webizi.purchase (1.0.1)<br><li><b>Проверки</b><br></li> <li>Исправлена проверка на истечение демо-режима</li> <br> <li><b>Дополнение</b><br></li> <li>Добавлен класс очистки кэша</li>
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:26:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=webizi.purchase&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:26:48 -  - TIME LoadModulesUpdates(request) 0.281 sec
+2017-07-19 17:26:48 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:26:49 - STEP - Finish - NOUPDATES
+2017-07-19 17:26:49 - STEP - Finish - NOUPDATES
+2017-07-19 17:28:25 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-19 17:28:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:28:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:28:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:28:25 -  - TIME GetUpdatesList(request) 0.433 sec
+2017-07-19 17:28:25 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:28:31 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-19 17:28:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:28:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:28:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:28:31 -  - TIME GetUpdatesList(request) 0.374 sec
+2017-07-19 17:28:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-19 17:28:35 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-19 17:28:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-19 17:28:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=17&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-19 17:28:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-19 17:28:35 -  - TIME GetUpdatesList(request) 0.479 sec
+2017-07-19 17:28:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-07-28 15:46:28 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-07-28 15:46:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-07-28 15:46:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=18&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.18&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-07-28 15:46:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-07-28 15:46:29 -  - TIME GetUpdatesList(request) 0.458 sec
+2017-07-28 15:46:29 -  - exec CUpdateClientPartner::ParseServerData
+2018-01-19 17:02:31 -  - exec CUpdateClientPartner::GetUpdatesList
+2018-01-19 17:02:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2018-01-19 17:02:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=27&TYPENC=F&CLIENT_PHPVER=5.6.30&NGINX=Y&dbv=5.7.19&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2018-01-19 17:02:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2018-01-19 17:02:32 -  - TIME GetUpdatesList(request) 0.303 sec
+2018-01-19 17:02:32 -  - exec CUpdateClientPartner::ParseServerData
+2019-02-21 15:30:39 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-02-21 15:30:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-02-21 15:30:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=60&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-02-21 15:30:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-02-21 15:30:41 -  - TIME GetUpdatesList(request) 1.692 sec
+2019-02-21 15:30:41 -  - exec CUpdateClientPartner::ParseServerData
+2019-02-21 15:40:28 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-02-21 15:40:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-02-21 15:40:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=60&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-02-21 15:40:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-02-21 15:40:29 -  - TIME GetUpdatesList(request) 0.258 sec
+2019-02-21 15:40:29 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-16 12:23:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-16 12:23:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-16 12:23:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&SUPD_SRS=RU&SUPD_CMP=Y
+2019-07-16 12:23:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-16 12:23:05 -  - TIME GetUpdatesList(request) 0.983 sec
+2019-07-16 12:23:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-16 12:23:19 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-16 12:23:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-16 12:23:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bseo%2C17.0.6%2CN%3Btranslate%2C15.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsearch%2C17.0.1%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bscale%2C17.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bperfmon%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN&reqm=aspro.allcorp%2Cwebizi.purchase%2Cbitrix.sitecorporate%2Cmibok.glaza&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-07-16 12:23:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-16 12:23:19 -  - TIME GetUpdatesList(request) 0.237 sec
+2019-07-16 12:23:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-20 12:06:43 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-20 12:06:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-20 12:06:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp%2Chardkod.turboyandex&SUPD_SRS=RU&SUPD_CMP=N
+2019-07-20 12:06:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-20 12:06:43 -  - TIME GetUpdatesList(request) 0.302 sec
+2019-07-20 12:06:43 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-20 12:07:31 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-20 12:07:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-20 12:07:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp%2Chardkod.turboyandex&SUPD_SRS=RU&SUPD_CMP=N
+2019-07-20 12:07:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-20 12:07:31 -  - TIME GetUpdatesList(request) 0.217 sec
+2019-07-20 12:07:31 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-20 12:13:54 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-20 12:13:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-20 12:13:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-07-20 12:13:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-20 12:13:55 -  - TIME GetUpdatesList(request) 0.373 sec
+2019-07-20 12:13:55 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-20 12:14:00 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-20 12:14:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-20 12:14:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-07-20 12:14:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-20 12:14:01 -  - TIME GetUpdatesList(request) 0.224 sec
+2019-07-20 12:14:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-07-20 12:14:01 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-07-20 12:14:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-07-20 12:14:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-07-20 12:14:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-07-20 12:14:01 -  - TIME GetUpdatesList(request) 0.241 sec
+2019-07-20 12:14:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-09-09 13:01:14 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-09-09 13:01:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-09-09 13:01:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp%2Cesol.importexportexcel&SUPD_SRS=RU&SUPD_CMP=N
+2019-09-09 13:01:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-09-09 13:01:15 -  - TIME GetUpdatesList(request) 0.523 sec
+2019-09-09 13:01:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-09-09 13:11:06 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-09-09 13:11:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-09-09 13:11:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Besol.importexportexcel%2C2.3.3%2CY%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Cesol.importexportexcel%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-09-09 13:11:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-09-09 13:11:07 -  - TIME GetUpdatesList(request) 0.951 sec
+2019-09-09 13:11:07 -  - exec CUpdateClientPartner::ParseServerData
+2019-09-09 13:11:09 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-09-09 13:11:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-09-09 13:11:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Besol.importexportexcel%2C2.3.3%2CY%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Cesol.importexportexcel%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-09-09 13:11:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-09-09 13:11:15 -  - TIME GetUpdatesList(request) 5.1 sec
+2019-09-09 13:11:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-09-09 13:11:15 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-09-09 13:11:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-09-09 13:11:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.golddi09.beget.tech&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=105&TYPENC=F&CLIENT_PHPVER=5.6.38&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Besol.importexportexcel%2C2.3.3%2CY%3Bfileman%2C17.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Btranslate%2C15.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bscale%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bsocialservices%2C17.1.4%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bperfmon%2C17.0.0%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bsearch%2C17.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Bseo%2C17.0.6%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=bitrix.sitecorporate%2Cesol.importexportexcel%2Chardkod.turboyandex%2Cmibok.glaza%2Cwebizi.purchase%2Caspro.allcorp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-09-09 13:11:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-09-09 13:11:17 -  - TIME GetUpdatesList(request) 2.087 sec
+2019-09-09 13:11:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-18 12:48:48 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-18 12:48:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-18 12:48:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=133&TYPENC=F&CLIENT_PHPVER=5.6.40&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Bperfmon%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bscale%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Btranslate%2C15.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bfileman%2C17.5.0%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=mibok.glaza%2Chardkod.turboyandex%2Caspro.allcorp%2Cbitrix.sitecorporate%2Cwebizi.purchase&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-18 12:48:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-18 12:48:49 -  - TIME GetUpdatesList(request) 0.347 sec
+2020-02-18 12:48:49 -  - exec CUpdateClientPartner::ParseServerData
+2021-03-30 10:30:37 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-03-30 10:30:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-03-30 10:30:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=496&TYPENC=F&CLIENT_PHPVER=5.6.40&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Bperfmon%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bscale%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Btranslate%2C15.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bfileman%2C17.5.0%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=mibok.glaza%2Chardkod.turboyandex%2Caspro.allcorp%2Cbitrix.sitecorporate%2Cwebizi.purchase&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-03-30 10:30:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-03-30 10:30:37 -  - TIME GetUpdatesList(request) 0.185 sec
+2021-03-30 10:30:37 -  - exec CUpdateClientPartner::ParseServerData
+2021-11-24 16:49:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-11-24 16:49:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-11-24 16:49:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=544&TYPENC=F&CLIENT_PHPVER=5.6.40&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Bperfmon%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bscale%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Btranslate%2C15.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bfileman%2C17.5.0%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=mibok.glaza%2Chardkod.turboyandex%2Caspro.allcorp%2Cbitrix.sitecorporate%2Cwebizi.purchase&SUPD_SRS=RU&SUPD_CMP=N
+2021-11-24 16:49:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-11-24 16:49:02 -  - TIME GetUpdatesList(request) 0.154 sec
+2021-11-24 16:49:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-11-24 16:49:58 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-11-24 16:49:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-11-24 16:49:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=544&TYPENC=F&CLIENT_PHPVER=5.6.40&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Bperfmon%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bscale%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Btranslate%2C15.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bfileman%2C17.5.0%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=mibok.glaza%2Chardkod.turboyandex%2Caspro.allcorp%2Cbitrix.sitecorporate%2Cwebizi.purchase&SUPD_SRS=RU&SUPD_CMP=N
+2021-11-24 16:49:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-11-24 16:49:58 -  - TIME GetUpdatesList(request) 0.157 sec
+2021-11-24 16:49:58 -  - exec CUpdateClientPartner::ParseServerData
+2021-11-24 16:50:01 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-11-24 16:50:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-11-24 16:50:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=544&TYPENC=F&CLIENT_PHPVER=5.6.40&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Bperfmon%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bscale%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Btranslate%2C15.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bfileman%2C17.5.0%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=mibok.glaza%2Chardkod.turboyandex%2Caspro.allcorp%2Cbitrix.sitecorporate%2Cwebizi.purchase&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-11-24 16:50:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-11-24 16:50:01 -  - TIME GetUpdatesList(request) 0.154 sec
+2021-11-24 16:50:01 -  - exec CUpdateClientPartner::ParseServerData
+2021-11-24 16:54:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-11-24 16:54:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-11-24 16:54:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=544&TYPENC=F&CLIENT_PHPVER=5.6.40&NGINX=Y&dbv=5.7.21&instm=main%2C17.0.9%2CN%3Bhighloadblock%2C17.0.2%2CN%3Bcompression%2C16.0.0%2CN%3Bmibok.glaza%2C2.5.0%2CN%3Bhardkod.turboyandex%2C1.0.4%2CN%3Bperfmon%2C17.0.0%2CN%3Biblock%2C17.0.9%2CN%3Bscale%2C17.0.0%2CN%3Baspro.allcorp%2C1.0.14%2CN%3Btranslate%2C15.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bfileman%2C17.5.0%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Bwebizi.purchase%2C1.0.1%2CN%3Bclouds%2C17.0.0%2CN%3Bbitrixcloud%2C17.0.0%2CN&reqm=mibok.glaza%2Chardkod.turboyandex%2Caspro.allcorp%2Cbitrix.sitecorporate%2Cwebizi.purchase&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-11-24 16:54:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-11-24 16:54:04 -  - TIME GetUpdatesList(request) 0.356 sec
+2021-11-24 16:54:04 -  - exec CUpdateClientPartner::ParseServerData

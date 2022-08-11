@@ -1,0 +1,12 @@
+.partners .flexslider{ margin-bottom: 20px; border: 0; border-radius: 0; box-shadow: none; }
+
+.partners .flexslider .slides > li{ height: 60px; line-height: 60px; }
+.partners .flexslider .slides > li img{ width: auto; display: inline-block; vertical-align: middle; }
+.partners .flexslider .slides > li a{ opacity: 0.5; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); filter: grayscale(100%); display: inline-block; vertical-align: top;}
+.partners .flexslider .slides > li a:hover{ opacity: 1; -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); filter: grayscale(0%) }
+
+.partners .flex-control-paging li a{ background: #c6d1d7; }
+
+.partners .flex-control-nav li{ vertical-align: middle; }
+
+.partners .flexslider .row > div{ text-align: center; }

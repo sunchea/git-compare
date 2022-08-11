@@ -1,0 +1,1 @@
+<?define("webizi_purchase_TEMPORARY_CACHE", "fGYGDnlrBFFsCCs2BzUJKFF1");?>
