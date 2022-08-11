@@ -1,0 +1,2 @@
+# git-compare
+git-compare
