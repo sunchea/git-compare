@@ -1893,3 +1893,9 @@
 2022-06-09 09:39:27 -  - exec CUpdateClient::GetHTTPPage
 2022-06-09 09:39:27 -  - TIME GetUpdatesList(request) 0.303 sec
 2022-06-09 09:39:27 -  - exec CUpdateClient::ParseServerData
+2022-08-09 12:28:46 -  - exec CUpdateClient::GetUpdatesList
+2022-08-09 12:28:46 -  - exec CUpdateClient::CollectRequestData
+2022-08-09 12:28:46 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.0.7&VERSION=17.0.9&TYPENC=F&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=group-kremny.ru&CHHB=group-kremny.ru&CSAB=87.236.16.247&SUID=a58c47bea7074e019f1a3fad37613927&CANGZIP=Y&CLIENT_PHPVER=5.6.40&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_socialservices=17.1.4&bitm_compression=16.0.0&bitm_seo=17.0.6&bitm_scale=17.0.0&bitm_perfmon=17.0.0&bitm_iblock=17.0.9&bitm_clouds=17.0.0&bitm_fileman=17.5.0&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_search=17.0.1&bitm_highloadblock=17.0.2&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2022-08-09 12:28:46 -  - exec CUpdateClient::GetHTTPPage
+2022-08-09 12:28:46 -  - TIME GetUpdatesList(request) 0.178 sec
+2022-08-09 12:28:46 -  - exec CUpdateClient::ParseServerData

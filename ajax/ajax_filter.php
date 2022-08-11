@@ -64,6 +64,7 @@ foreach ($curCompEls as $idEl) {
 }
 
 $params = Array(
+            "AJAX_MODE" => "Y",
             "DISPLAY" => $arParams['display'],
             "COUNT_IN_LINE" => $arParams["COUNT_IN_LINE"],
             "COUNT_LIST_LINE" => $arParams["COUNT_LIST_LINE"],
@@ -123,6 +124,10 @@ if($arSort) {
     $params['SORT_BY2'] = 'ID';
     $params['SORT_ORDER2'] = 'DESC';
 }
+
+echo "<pre style=\"display:none;font-size:11px;\">";
+print_r($params);
+echo "</pre>";
 
 $APPLICATION->IncludeComponent(
 		"bitrix:news.list",
